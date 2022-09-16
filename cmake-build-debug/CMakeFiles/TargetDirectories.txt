@@ -1,0 +1,3 @@
+/home/katharsis/CLionProjects/ImageProcessing/cmake-build-debug/CMakeFiles/ImageProcessing.dir
+/home/katharsis/CLionProjects/ImageProcessing/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/katharsis/CLionProjects/ImageProcessing/cmake-build-debug/CMakeFiles/rebuild_cache.dir
