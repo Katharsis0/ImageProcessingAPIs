@@ -1,8 +1,32 @@
 #include <iostream>
+//libreria cliente servidor
 #include <boost/asio.hpp>
+#include <boost/lexical_cast.hpp>
+//libreria para el manejo de matrices
+#include <opencv4/opencv2/opencv.hpp>
+#include <opencv4/opencv2/core.hpp>
 
 using namespace std;
+using namespace cv;
+
+
 int main() {
+
+
+    Mat img = imread("/home/katharsis/Documentos/GitHub/ImageProcessingAPIs/Images/image.jpg", IMREAD_UNCHANGED);
+    Mat line;
+    int rows= img.rows;
+    int cols= img.cols;
+    int channels= img.channels();
+    int type= img.type();
+
+    cout<< "rows: " << rows << endl;
+    cout<< "cols: " << cols << endl;
+    cout<< "channels: " << channels << endl;
+    cout<< "type: " << type << endl;
+
+
+    //Cliente
     boost::asio::io_service io_service; // Servicio de input/output
     boost::asio::ip::tcp::socket socket(io_service); // Declaracion de socket para conexiones
     boost::system::error_code error; // Variable para codigo de error especifico de Boost

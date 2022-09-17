@@ -1,4 +1,4 @@
-/snap/clion/205/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/snap/clion/205/bin/ninja/linux/ninja -G Ninja -S /home/katharsis/CLionProjects/ImageProcessing -B /home/katharsis/CLionProjects/ImageProcessing/cmake-build-debug
+/snap/clion/205/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" -S /home/katharsis/Documentos/GitHub/ImageProcessingAPIs -B /home/katharsis/Documentos/GitHub/ImageProcessingAPIs/cmake-build-debug
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/katharsis/CLionProjects/ImageProcessing/cmake-build-debug
+-- Build files have been written to: /home/katharsis/Documentos/GitHub/ImageProcessingAPIs/cmake-build-debug
