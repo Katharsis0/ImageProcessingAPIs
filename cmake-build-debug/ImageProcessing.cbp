@@ -84,6 +84,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/katharsis/Documentos/GitHub/ImageProcessingAPIs/MyImage.cpp">
+			<Option target="ImageProcessing"/>
+		</Unit>
+		<Unit filename="/home/katharsis/Documentos/GitHub/ImageProcessingAPIs/MyImage.h">
+			<Option target="ImageProcessing"/>
+		</Unit>
 		<Unit filename="/home/katharsis/Documentos/GitHub/ImageProcessingAPIs/client.cpp">
 			<Option target="ImageProcessing"/>
 		</Unit>

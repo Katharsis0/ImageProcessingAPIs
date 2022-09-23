@@ -129,6 +129,30 @@ ImageProcessing/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImageProcessing.dir/build.make CMakeFiles/ImageProcessing.dir/build
 .PHONY : ImageProcessing/fast
 
+MyImage.o: MyImage.cpp.o
+.PHONY : MyImage.o
+
+# target to build an object file
+MyImage.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImageProcessing.dir/build.make CMakeFiles/ImageProcessing.dir/MyImage.cpp.o
+.PHONY : MyImage.cpp.o
+
+MyImage.i: MyImage.cpp.i
+.PHONY : MyImage.i
+
+# target to preprocess a source file
+MyImage.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImageProcessing.dir/build.make CMakeFiles/ImageProcessing.dir/MyImage.cpp.i
+.PHONY : MyImage.cpp.i
+
+MyImage.s: MyImage.cpp.s
+.PHONY : MyImage.s
+
+# target to generate assembly for a file
+MyImage.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImageProcessing.dir/build.make CMakeFiles/ImageProcessing.dir/MyImage.cpp.s
+.PHONY : MyImage.cpp.s
+
 client.o: client.cpp.o
 .PHONY : client.o
 
@@ -186,6 +210,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ImageProcessing"
+	@echo "... MyImage.o"
+	@echo "... MyImage.i"
+	@echo "... MyImage.s"
 	@echo "... client.o"
 	@echo "... client.i"
 	@echo "... client.s"
