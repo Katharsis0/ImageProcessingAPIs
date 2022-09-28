@@ -90,6 +90,18 @@
 		<Unit filename="/home/katharsis/Documentos/GitHub/ImageProcessingAPIs/MyImage.h">
 			<Option target="ImageProcessing"/>
 		</Unit>
+		<Unit filename="/home/katharsis/Documentos/GitHub/ImageProcessingAPIs/Page.cpp">
+			<Option target="ImageProcessing"/>
+		</Unit>
+		<Unit filename="/home/katharsis/Documentos/GitHub/ImageProcessingAPIs/Page.h">
+			<Option target="ImageProcessing"/>
+		</Unit>
+		<Unit filename="/home/katharsis/Documentos/GitHub/ImageProcessingAPIs/PageManager.cpp">
+			<Option target="ImageProcessing"/>
+		</Unit>
+		<Unit filename="/home/katharsis/Documentos/GitHub/ImageProcessingAPIs/PageManager.h">
+			<Option target="ImageProcessing"/>
+		</Unit>
 		<Unit filename="/home/katharsis/Documentos/GitHub/ImageProcessingAPIs/client.cpp">
 			<Option target="ImageProcessing"/>
 		</Unit>

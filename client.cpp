@@ -7,11 +7,21 @@
 #include <opencv4/opencv2/core.hpp>
 #include "MyImage.h"
 
-//using namespace std;
-//using namespace cv;
+using namespace std;
+using namespace cv;
 
 //Se compila con g++ -o client client.cpp `pkg-config --cflags --libs opencv4`
 int main() {
+    MyImage img= MyImage("Images/Haze6.jpg");
+//    int columns=img.getColumns();
+//    int rows=img.getRows();
+//    int channels=img.getChannels();
+//    img.showBefImage();
+    std::cout << img.getRowI()<< std::endl;
+//    std::cout << "Columns: " << columns << std::endl;
+//    std::cout << "Rows: " << rows << std::endl;
+//    std::cout << "Channels: " << channels << std::endl;
+
 
 
 //    Cliente

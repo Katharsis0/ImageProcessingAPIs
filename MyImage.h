@@ -17,19 +17,19 @@ class MyImage {
         ///Constructores
         MyImage(std::string fileName);
         MyImage(cv::Mat imageMatrix);
-
-
         ///Atributos
         std::string fileName;
         cv::Mat imageMatrix;
         cv::Mat modImageMatrix;
-
         ///Metodos
-        cv::Mat getMatrix(std::string fileName);
+        cv::Mat setMatrix(std::string filename);
+        int getRowI();
+        cv::Mat getMatrix();
         void showBefImage();
         void showAftImage();
-
+        int getColumns();
+        int getRows();
+        int getChannels();
 };
-
 
 #endif IMAGEPROCESSING_MYIMAGE_H

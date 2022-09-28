@@ -44,10 +44,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/205/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/206/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/205/bin/cmake/linux/bin/cmake -E rm -f
+RM = /snap/clion/206/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -111,11 +111,41 @@ CMakeFiles/ImageProcessing.dir/MyImage.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ImageProcessing.dir/MyImage.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/katharsis/Documentos/GitHub/ImageProcessingAPIs/MyImage.cpp -o CMakeFiles/ImageProcessing.dir/MyImage.cpp.s
 
+CMakeFiles/ImageProcessing.dir/Page.cpp.o: CMakeFiles/ImageProcessing.dir/flags.make
+CMakeFiles/ImageProcessing.dir/Page.cpp.o: ../Page.cpp
+CMakeFiles/ImageProcessing.dir/Page.cpp.o: CMakeFiles/ImageProcessing.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/katharsis/Documentos/GitHub/ImageProcessingAPIs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ImageProcessing.dir/Page.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ImageProcessing.dir/Page.cpp.o -MF CMakeFiles/ImageProcessing.dir/Page.cpp.o.d -o CMakeFiles/ImageProcessing.dir/Page.cpp.o -c /home/katharsis/Documentos/GitHub/ImageProcessingAPIs/Page.cpp
+
+CMakeFiles/ImageProcessing.dir/Page.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ImageProcessing.dir/Page.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/katharsis/Documentos/GitHub/ImageProcessingAPIs/Page.cpp > CMakeFiles/ImageProcessing.dir/Page.cpp.i
+
+CMakeFiles/ImageProcessing.dir/Page.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ImageProcessing.dir/Page.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/katharsis/Documentos/GitHub/ImageProcessingAPIs/Page.cpp -o CMakeFiles/ImageProcessing.dir/Page.cpp.s
+
+CMakeFiles/ImageProcessing.dir/PageManager.cpp.o: CMakeFiles/ImageProcessing.dir/flags.make
+CMakeFiles/ImageProcessing.dir/PageManager.cpp.o: ../PageManager.cpp
+CMakeFiles/ImageProcessing.dir/PageManager.cpp.o: CMakeFiles/ImageProcessing.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/katharsis/Documentos/GitHub/ImageProcessingAPIs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ImageProcessing.dir/PageManager.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ImageProcessing.dir/PageManager.cpp.o -MF CMakeFiles/ImageProcessing.dir/PageManager.cpp.o.d -o CMakeFiles/ImageProcessing.dir/PageManager.cpp.o -c /home/katharsis/Documentos/GitHub/ImageProcessingAPIs/PageManager.cpp
+
+CMakeFiles/ImageProcessing.dir/PageManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ImageProcessing.dir/PageManager.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/katharsis/Documentos/GitHub/ImageProcessingAPIs/PageManager.cpp > CMakeFiles/ImageProcessing.dir/PageManager.cpp.i
+
+CMakeFiles/ImageProcessing.dir/PageManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ImageProcessing.dir/PageManager.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/katharsis/Documentos/GitHub/ImageProcessingAPIs/PageManager.cpp -o CMakeFiles/ImageProcessing.dir/PageManager.cpp.s
+
 # Object files for target ImageProcessing
 ImageProcessing_OBJECTS = \
 "CMakeFiles/ImageProcessing.dir/client.cpp.o" \
 "CMakeFiles/ImageProcessing.dir/server.cpp.o" \
-"CMakeFiles/ImageProcessing.dir/MyImage.cpp.o"
+"CMakeFiles/ImageProcessing.dir/MyImage.cpp.o" \
+"CMakeFiles/ImageProcessing.dir/Page.cpp.o" \
+"CMakeFiles/ImageProcessing.dir/PageManager.cpp.o"
 
 # External object files for target ImageProcessing
 ImageProcessing_EXTERNAL_OBJECTS =
@@ -123,6 +153,8 @@ ImageProcessing_EXTERNAL_OBJECTS =
 ImageProcessing: CMakeFiles/ImageProcessing.dir/client.cpp.o
 ImageProcessing: CMakeFiles/ImageProcessing.dir/server.cpp.o
 ImageProcessing: CMakeFiles/ImageProcessing.dir/MyImage.cpp.o
+ImageProcessing: CMakeFiles/ImageProcessing.dir/Page.cpp.o
+ImageProcessing: CMakeFiles/ImageProcessing.dir/PageManager.cpp.o
 ImageProcessing: CMakeFiles/ImageProcessing.dir/build.make
 ImageProcessing: /usr/local/lib/libopencv_gapi.so.4.6.0
 ImageProcessing: /usr/local/lib/libopencv_stitching.so.4.6.0
@@ -178,7 +210,7 @@ ImageProcessing: /usr/local/lib/libopencv_photo.so.4.6.0
 ImageProcessing: /usr/local/lib/libopencv_imgproc.so.4.6.0
 ImageProcessing: /usr/local/lib/libopencv_core.so.4.6.0
 ImageProcessing: CMakeFiles/ImageProcessing.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/katharsis/Documentos/GitHub/ImageProcessingAPIs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ImageProcessing"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/katharsis/Documentos/GitHub/ImageProcessingAPIs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable ImageProcessing"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ImageProcessing.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
