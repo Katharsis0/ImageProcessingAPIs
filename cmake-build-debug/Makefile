@@ -57,10 +57,10 @@ RM = /snap/clion/206/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/katharsis/Documentos/GitHub/ImageProcessingAPIs
+CMAKE_SOURCE_DIR = /home/dansecan/CLionProjects/ImageProcessingAPIs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/katharsis/Documentos/GitHub/ImageProcessingAPIs/cmake-build-debug
+CMAKE_BINARY_DIR = /home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/katharsis/Documentos/GitHub/ImageProcessingAPIs/cmake-build-debug/CMakeFiles /home/katharsis/Documentos/GitHub/ImageProcessingAPIs/cmake-build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/CMakeFiles /home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/katharsis/Documentos/GitHub/ImageProcessingAPIs/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -128,6 +128,30 @@ ImageProcessing: cmake_check_build_system
 ImageProcessing/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImageProcessing.dir/build.make CMakeFiles/ImageProcessing.dir/build
 .PHONY : ImageProcessing/fast
+
+Filters.o: Filters.cpp.o
+.PHONY : Filters.o
+
+# target to build an object file
+Filters.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImageProcessing.dir/build.make CMakeFiles/ImageProcessing.dir/Filters.cpp.o
+.PHONY : Filters.cpp.o
+
+Filters.i: Filters.cpp.i
+.PHONY : Filters.i
+
+# target to preprocess a source file
+Filters.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImageProcessing.dir/build.make CMakeFiles/ImageProcessing.dir/Filters.cpp.i
+.PHONY : Filters.cpp.i
+
+Filters.s: Filters.cpp.s
+.PHONY : Filters.s
+
+# target to generate assembly for a file
+Filters.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImageProcessing.dir/build.make CMakeFiles/ImageProcessing.dir/Filters.cpp.s
+.PHONY : Filters.cpp.s
 
 MyImage.o: MyImage.cpp.o
 .PHONY : MyImage.o
@@ -258,6 +282,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ImageProcessing"
+	@echo "... Filters.o"
+	@echo "... Filters.i"
+	@echo "... Filters.s"
 	@echo "... MyImage.o"
 	@echo "... MyImage.i"
 	@echo "... MyImage.s"

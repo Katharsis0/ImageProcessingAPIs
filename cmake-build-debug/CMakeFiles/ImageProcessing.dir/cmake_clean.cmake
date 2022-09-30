@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/ImageProcessing.dir/Filters.cpp.o"
+  "CMakeFiles/ImageProcessing.dir/Filters.cpp.o.d"
   "CMakeFiles/ImageProcessing.dir/MyImage.cpp.o"
   "CMakeFiles/ImageProcessing.dir/MyImage.cpp.o.d"
   "CMakeFiles/ImageProcessing.dir/Page.cpp.o"

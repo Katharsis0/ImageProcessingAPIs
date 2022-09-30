@@ -32,4 +32,4 @@ class MyImage {
         int getChannels();
 };
 
-#endif IMAGEPROCESSING_MYIMAGE_H
+#endif //IMAGEPROCESSING_MYIMAGE_H

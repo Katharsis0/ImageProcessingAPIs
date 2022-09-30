@@ -53,10 +53,10 @@ RM = /snap/clion/206/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/katharsis/Documentos/GitHub/ImageProcessingAPIs
+CMAKE_SOURCE_DIR = /home/dansecan/CLionProjects/ImageProcessingAPIs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/katharsis/Documentos/GitHub/ImageProcessingAPIs/cmake-build-debug
+CMAKE_BINARY_DIR = /home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ImageProcessing.dir/depend.make
@@ -72,72 +72,86 @@ include CMakeFiles/ImageProcessing.dir/flags.make
 CMakeFiles/ImageProcessing.dir/client.cpp.o: CMakeFiles/ImageProcessing.dir/flags.make
 CMakeFiles/ImageProcessing.dir/client.cpp.o: ../client.cpp
 CMakeFiles/ImageProcessing.dir/client.cpp.o: CMakeFiles/ImageProcessing.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/katharsis/Documentos/GitHub/ImageProcessingAPIs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ImageProcessing.dir/client.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ImageProcessing.dir/client.cpp.o -MF CMakeFiles/ImageProcessing.dir/client.cpp.o.d -o CMakeFiles/ImageProcessing.dir/client.cpp.o -c /home/katharsis/Documentos/GitHub/ImageProcessingAPIs/client.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ImageProcessing.dir/client.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ImageProcessing.dir/client.cpp.o -MF CMakeFiles/ImageProcessing.dir/client.cpp.o.d -o CMakeFiles/ImageProcessing.dir/client.cpp.o -c /home/dansecan/CLionProjects/ImageProcessingAPIs/client.cpp
 
 CMakeFiles/ImageProcessing.dir/client.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ImageProcessing.dir/client.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/katharsis/Documentos/GitHub/ImageProcessingAPIs/client.cpp > CMakeFiles/ImageProcessing.dir/client.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dansecan/CLionProjects/ImageProcessingAPIs/client.cpp > CMakeFiles/ImageProcessing.dir/client.cpp.i
 
 CMakeFiles/ImageProcessing.dir/client.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ImageProcessing.dir/client.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/katharsis/Documentos/GitHub/ImageProcessingAPIs/client.cpp -o CMakeFiles/ImageProcessing.dir/client.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dansecan/CLionProjects/ImageProcessingAPIs/client.cpp -o CMakeFiles/ImageProcessing.dir/client.cpp.s
 
 CMakeFiles/ImageProcessing.dir/server.cpp.o: CMakeFiles/ImageProcessing.dir/flags.make
 CMakeFiles/ImageProcessing.dir/server.cpp.o: ../server.cpp
 CMakeFiles/ImageProcessing.dir/server.cpp.o: CMakeFiles/ImageProcessing.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/katharsis/Documentos/GitHub/ImageProcessingAPIs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ImageProcessing.dir/server.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ImageProcessing.dir/server.cpp.o -MF CMakeFiles/ImageProcessing.dir/server.cpp.o.d -o CMakeFiles/ImageProcessing.dir/server.cpp.o -c /home/katharsis/Documentos/GitHub/ImageProcessingAPIs/server.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ImageProcessing.dir/server.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ImageProcessing.dir/server.cpp.o -MF CMakeFiles/ImageProcessing.dir/server.cpp.o.d -o CMakeFiles/ImageProcessing.dir/server.cpp.o -c /home/dansecan/CLionProjects/ImageProcessingAPIs/server.cpp
 
 CMakeFiles/ImageProcessing.dir/server.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ImageProcessing.dir/server.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/katharsis/Documentos/GitHub/ImageProcessingAPIs/server.cpp > CMakeFiles/ImageProcessing.dir/server.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dansecan/CLionProjects/ImageProcessingAPIs/server.cpp > CMakeFiles/ImageProcessing.dir/server.cpp.i
 
 CMakeFiles/ImageProcessing.dir/server.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ImageProcessing.dir/server.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/katharsis/Documentos/GitHub/ImageProcessingAPIs/server.cpp -o CMakeFiles/ImageProcessing.dir/server.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dansecan/CLionProjects/ImageProcessingAPIs/server.cpp -o CMakeFiles/ImageProcessing.dir/server.cpp.s
 
 CMakeFiles/ImageProcessing.dir/MyImage.cpp.o: CMakeFiles/ImageProcessing.dir/flags.make
 CMakeFiles/ImageProcessing.dir/MyImage.cpp.o: ../MyImage.cpp
 CMakeFiles/ImageProcessing.dir/MyImage.cpp.o: CMakeFiles/ImageProcessing.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/katharsis/Documentos/GitHub/ImageProcessingAPIs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ImageProcessing.dir/MyImage.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ImageProcessing.dir/MyImage.cpp.o -MF CMakeFiles/ImageProcessing.dir/MyImage.cpp.o.d -o CMakeFiles/ImageProcessing.dir/MyImage.cpp.o -c /home/katharsis/Documentos/GitHub/ImageProcessingAPIs/MyImage.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ImageProcessing.dir/MyImage.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ImageProcessing.dir/MyImage.cpp.o -MF CMakeFiles/ImageProcessing.dir/MyImage.cpp.o.d -o CMakeFiles/ImageProcessing.dir/MyImage.cpp.o -c /home/dansecan/CLionProjects/ImageProcessingAPIs/MyImage.cpp
 
 CMakeFiles/ImageProcessing.dir/MyImage.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ImageProcessing.dir/MyImage.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/katharsis/Documentos/GitHub/ImageProcessingAPIs/MyImage.cpp > CMakeFiles/ImageProcessing.dir/MyImage.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dansecan/CLionProjects/ImageProcessingAPIs/MyImage.cpp > CMakeFiles/ImageProcessing.dir/MyImage.cpp.i
 
 CMakeFiles/ImageProcessing.dir/MyImage.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ImageProcessing.dir/MyImage.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/katharsis/Documentos/GitHub/ImageProcessingAPIs/MyImage.cpp -o CMakeFiles/ImageProcessing.dir/MyImage.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dansecan/CLionProjects/ImageProcessingAPIs/MyImage.cpp -o CMakeFiles/ImageProcessing.dir/MyImage.cpp.s
 
 CMakeFiles/ImageProcessing.dir/Page.cpp.o: CMakeFiles/ImageProcessing.dir/flags.make
 CMakeFiles/ImageProcessing.dir/Page.cpp.o: ../Page.cpp
 CMakeFiles/ImageProcessing.dir/Page.cpp.o: CMakeFiles/ImageProcessing.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/katharsis/Documentos/GitHub/ImageProcessingAPIs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ImageProcessing.dir/Page.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ImageProcessing.dir/Page.cpp.o -MF CMakeFiles/ImageProcessing.dir/Page.cpp.o.d -o CMakeFiles/ImageProcessing.dir/Page.cpp.o -c /home/katharsis/Documentos/GitHub/ImageProcessingAPIs/Page.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ImageProcessing.dir/Page.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ImageProcessing.dir/Page.cpp.o -MF CMakeFiles/ImageProcessing.dir/Page.cpp.o.d -o CMakeFiles/ImageProcessing.dir/Page.cpp.o -c /home/dansecan/CLionProjects/ImageProcessingAPIs/Page.cpp
 
 CMakeFiles/ImageProcessing.dir/Page.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ImageProcessing.dir/Page.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/katharsis/Documentos/GitHub/ImageProcessingAPIs/Page.cpp > CMakeFiles/ImageProcessing.dir/Page.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dansecan/CLionProjects/ImageProcessingAPIs/Page.cpp > CMakeFiles/ImageProcessing.dir/Page.cpp.i
 
 CMakeFiles/ImageProcessing.dir/Page.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ImageProcessing.dir/Page.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/katharsis/Documentos/GitHub/ImageProcessingAPIs/Page.cpp -o CMakeFiles/ImageProcessing.dir/Page.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dansecan/CLionProjects/ImageProcessingAPIs/Page.cpp -o CMakeFiles/ImageProcessing.dir/Page.cpp.s
 
 CMakeFiles/ImageProcessing.dir/PageManager.cpp.o: CMakeFiles/ImageProcessing.dir/flags.make
 CMakeFiles/ImageProcessing.dir/PageManager.cpp.o: ../PageManager.cpp
 CMakeFiles/ImageProcessing.dir/PageManager.cpp.o: CMakeFiles/ImageProcessing.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/katharsis/Documentos/GitHub/ImageProcessingAPIs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ImageProcessing.dir/PageManager.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ImageProcessing.dir/PageManager.cpp.o -MF CMakeFiles/ImageProcessing.dir/PageManager.cpp.o.d -o CMakeFiles/ImageProcessing.dir/PageManager.cpp.o -c /home/katharsis/Documentos/GitHub/ImageProcessingAPIs/PageManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ImageProcessing.dir/PageManager.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ImageProcessing.dir/PageManager.cpp.o -MF CMakeFiles/ImageProcessing.dir/PageManager.cpp.o.d -o CMakeFiles/ImageProcessing.dir/PageManager.cpp.o -c /home/dansecan/CLionProjects/ImageProcessingAPIs/PageManager.cpp
 
 CMakeFiles/ImageProcessing.dir/PageManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ImageProcessing.dir/PageManager.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/katharsis/Documentos/GitHub/ImageProcessingAPIs/PageManager.cpp > CMakeFiles/ImageProcessing.dir/PageManager.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dansecan/CLionProjects/ImageProcessingAPIs/PageManager.cpp > CMakeFiles/ImageProcessing.dir/PageManager.cpp.i
 
 CMakeFiles/ImageProcessing.dir/PageManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ImageProcessing.dir/PageManager.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/katharsis/Documentos/GitHub/ImageProcessingAPIs/PageManager.cpp -o CMakeFiles/ImageProcessing.dir/PageManager.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dansecan/CLionProjects/ImageProcessingAPIs/PageManager.cpp -o CMakeFiles/ImageProcessing.dir/PageManager.cpp.s
+
+CMakeFiles/ImageProcessing.dir/Filters.cpp.o: CMakeFiles/ImageProcessing.dir/flags.make
+CMakeFiles/ImageProcessing.dir/Filters.cpp.o: ../Filters.cpp
+CMakeFiles/ImageProcessing.dir/Filters.cpp.o: CMakeFiles/ImageProcessing.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ImageProcessing.dir/Filters.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ImageProcessing.dir/Filters.cpp.o -MF CMakeFiles/ImageProcessing.dir/Filters.cpp.o.d -o CMakeFiles/ImageProcessing.dir/Filters.cpp.o -c /home/dansecan/CLionProjects/ImageProcessingAPIs/Filters.cpp
+
+CMakeFiles/ImageProcessing.dir/Filters.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ImageProcessing.dir/Filters.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dansecan/CLionProjects/ImageProcessingAPIs/Filters.cpp > CMakeFiles/ImageProcessing.dir/Filters.cpp.i
+
+CMakeFiles/ImageProcessing.dir/Filters.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ImageProcessing.dir/Filters.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dansecan/CLionProjects/ImageProcessingAPIs/Filters.cpp -o CMakeFiles/ImageProcessing.dir/Filters.cpp.s
 
 # Object files for target ImageProcessing
 ImageProcessing_OBJECTS = \
@@ -145,7 +159,8 @@ ImageProcessing_OBJECTS = \
 "CMakeFiles/ImageProcessing.dir/server.cpp.o" \
 "CMakeFiles/ImageProcessing.dir/MyImage.cpp.o" \
 "CMakeFiles/ImageProcessing.dir/Page.cpp.o" \
-"CMakeFiles/ImageProcessing.dir/PageManager.cpp.o"
+"CMakeFiles/ImageProcessing.dir/PageManager.cpp.o" \
+"CMakeFiles/ImageProcessing.dir/Filters.cpp.o"
 
 # External object files for target ImageProcessing
 ImageProcessing_EXTERNAL_OBJECTS =
@@ -155,62 +170,64 @@ ImageProcessing: CMakeFiles/ImageProcessing.dir/server.cpp.o
 ImageProcessing: CMakeFiles/ImageProcessing.dir/MyImage.cpp.o
 ImageProcessing: CMakeFiles/ImageProcessing.dir/Page.cpp.o
 ImageProcessing: CMakeFiles/ImageProcessing.dir/PageManager.cpp.o
+ImageProcessing: CMakeFiles/ImageProcessing.dir/Filters.cpp.o
 ImageProcessing: CMakeFiles/ImageProcessing.dir/build.make
-ImageProcessing: /usr/local/lib/libopencv_gapi.so.4.6.0
-ImageProcessing: /usr/local/lib/libopencv_stitching.so.4.6.0
-ImageProcessing: /usr/local/lib/libopencv_aruco.so.4.6.0
-ImageProcessing: /usr/local/lib/libopencv_barcode.so.4.6.0
-ImageProcessing: /usr/local/lib/libopencv_bgsegm.so.4.6.0
-ImageProcessing: /usr/local/lib/libopencv_bioinspired.so.4.6.0
-ImageProcessing: /usr/local/lib/libopencv_ccalib.so.4.6.0
-ImageProcessing: /usr/local/lib/libopencv_dnn_objdetect.so.4.6.0
-ImageProcessing: /usr/local/lib/libopencv_dnn_superres.so.4.6.0
-ImageProcessing: /usr/local/lib/libopencv_dpm.so.4.6.0
-ImageProcessing: /usr/local/lib/libopencv_face.so.4.6.0
-ImageProcessing: /usr/local/lib/libopencv_freetype.so.4.6.0
-ImageProcessing: /usr/local/lib/libopencv_fuzzy.so.4.6.0
-ImageProcessing: /usr/local/lib/libopencv_hfs.so.4.6.0
-ImageProcessing: /usr/local/lib/libopencv_img_hash.so.4.6.0
-ImageProcessing: /usr/local/lib/libopencv_intensity_transform.so.4.6.0
-ImageProcessing: /usr/local/lib/libopencv_line_descriptor.so.4.6.0
-ImageProcessing: /usr/local/lib/libopencv_mcc.so.4.6.0
-ImageProcessing: /usr/local/lib/libopencv_quality.so.4.6.0
-ImageProcessing: /usr/local/lib/libopencv_rapid.so.4.6.0
-ImageProcessing: /usr/local/lib/libopencv_reg.so.4.6.0
-ImageProcessing: /usr/local/lib/libopencv_rgbd.so.4.6.0
-ImageProcessing: /usr/local/lib/libopencv_saliency.so.4.6.0
-ImageProcessing: /usr/local/lib/libopencv_stereo.so.4.6.0
-ImageProcessing: /usr/local/lib/libopencv_structured_light.so.4.6.0
-ImageProcessing: /usr/local/lib/libopencv_superres.so.4.6.0
-ImageProcessing: /usr/local/lib/libopencv_surface_matching.so.4.6.0
-ImageProcessing: /usr/local/lib/libopencv_tracking.so.4.6.0
-ImageProcessing: /usr/local/lib/libopencv_videostab.so.4.6.0
-ImageProcessing: /usr/local/lib/libopencv_wechat_qrcode.so.4.6.0
-ImageProcessing: /usr/local/lib/libopencv_xfeatures2d.so.4.6.0
-ImageProcessing: /usr/local/lib/libopencv_xobjdetect.so.4.6.0
-ImageProcessing: /usr/local/lib/libopencv_xphoto.so.4.6.0
-ImageProcessing: /usr/local/lib/libopencv_shape.so.4.6.0
-ImageProcessing: /usr/local/lib/libopencv_highgui.so.4.6.0
-ImageProcessing: /usr/local/lib/libopencv_datasets.so.4.6.0
-ImageProcessing: /usr/local/lib/libopencv_plot.so.4.6.0
-ImageProcessing: /usr/local/lib/libopencv_text.so.4.6.0
-ImageProcessing: /usr/local/lib/libopencv_ml.so.4.6.0
-ImageProcessing: /usr/local/lib/libopencv_phase_unwrapping.so.4.6.0
-ImageProcessing: /usr/local/lib/libopencv_optflow.so.4.6.0
-ImageProcessing: /usr/local/lib/libopencv_ximgproc.so.4.6.0
-ImageProcessing: /usr/local/lib/libopencv_video.so.4.6.0
-ImageProcessing: /usr/local/lib/libopencv_videoio.so.4.6.0
-ImageProcessing: /usr/local/lib/libopencv_imgcodecs.so.4.6.0
-ImageProcessing: /usr/local/lib/libopencv_objdetect.so.4.6.0
-ImageProcessing: /usr/local/lib/libopencv_calib3d.so.4.6.0
-ImageProcessing: /usr/local/lib/libopencv_dnn.so.4.6.0
-ImageProcessing: /usr/local/lib/libopencv_features2d.so.4.6.0
-ImageProcessing: /usr/local/lib/libopencv_flann.so.4.6.0
-ImageProcessing: /usr/local/lib/libopencv_photo.so.4.6.0
-ImageProcessing: /usr/local/lib/libopencv_imgproc.so.4.6.0
-ImageProcessing: /usr/local/lib/libopencv_core.so.4.6.0
+ImageProcessing: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.4.5.4d
+ImageProcessing: /usr/lib/x86_64-linux-gnu/libopencv_alphamat.so.4.5.4d
+ImageProcessing: /usr/lib/x86_64-linux-gnu/libopencv_aruco.so.4.5.4d
+ImageProcessing: /usr/lib/x86_64-linux-gnu/libopencv_barcode.so.4.5.4d
+ImageProcessing: /usr/lib/x86_64-linux-gnu/libopencv_bgsegm.so.4.5.4d
+ImageProcessing: /usr/lib/x86_64-linux-gnu/libopencv_bioinspired.so.4.5.4d
+ImageProcessing: /usr/lib/x86_64-linux-gnu/libopencv_ccalib.so.4.5.4d
+ImageProcessing: /usr/lib/x86_64-linux-gnu/libopencv_dnn_objdetect.so.4.5.4d
+ImageProcessing: /usr/lib/x86_64-linux-gnu/libopencv_dnn_superres.so.4.5.4d
+ImageProcessing: /usr/lib/x86_64-linux-gnu/libopencv_dpm.so.4.5.4d
+ImageProcessing: /usr/lib/x86_64-linux-gnu/libopencv_face.so.4.5.4d
+ImageProcessing: /usr/lib/x86_64-linux-gnu/libopencv_freetype.so.4.5.4d
+ImageProcessing: /usr/lib/x86_64-linux-gnu/libopencv_fuzzy.so.4.5.4d
+ImageProcessing: /usr/lib/x86_64-linux-gnu/libopencv_hdf.so.4.5.4d
+ImageProcessing: /usr/lib/x86_64-linux-gnu/libopencv_hfs.so.4.5.4d
+ImageProcessing: /usr/lib/x86_64-linux-gnu/libopencv_img_hash.so.4.5.4d
+ImageProcessing: /usr/lib/x86_64-linux-gnu/libopencv_intensity_transform.so.4.5.4d
+ImageProcessing: /usr/lib/x86_64-linux-gnu/libopencv_line_descriptor.so.4.5.4d
+ImageProcessing: /usr/lib/x86_64-linux-gnu/libopencv_mcc.so.4.5.4d
+ImageProcessing: /usr/lib/x86_64-linux-gnu/libopencv_quality.so.4.5.4d
+ImageProcessing: /usr/lib/x86_64-linux-gnu/libopencv_rapid.so.4.5.4d
+ImageProcessing: /usr/lib/x86_64-linux-gnu/libopencv_reg.so.4.5.4d
+ImageProcessing: /usr/lib/x86_64-linux-gnu/libopencv_rgbd.so.4.5.4d
+ImageProcessing: /usr/lib/x86_64-linux-gnu/libopencv_saliency.so.4.5.4d
+ImageProcessing: /usr/lib/x86_64-linux-gnu/libopencv_shape.so.4.5.4d
+ImageProcessing: /usr/lib/x86_64-linux-gnu/libopencv_stereo.so.4.5.4d
+ImageProcessing: /usr/lib/x86_64-linux-gnu/libopencv_structured_light.so.4.5.4d
+ImageProcessing: /usr/lib/x86_64-linux-gnu/libopencv_superres.so.4.5.4d
+ImageProcessing: /usr/lib/x86_64-linux-gnu/libopencv_surface_matching.so.4.5.4d
+ImageProcessing: /usr/lib/x86_64-linux-gnu/libopencv_tracking.so.4.5.4d
+ImageProcessing: /usr/lib/x86_64-linux-gnu/libopencv_videostab.so.4.5.4d
+ImageProcessing: /usr/lib/x86_64-linux-gnu/libopencv_viz.so.4.5.4d
+ImageProcessing: /usr/lib/x86_64-linux-gnu/libopencv_wechat_qrcode.so.4.5.4d
+ImageProcessing: /usr/lib/x86_64-linux-gnu/libopencv_xobjdetect.so.4.5.4d
+ImageProcessing: /usr/lib/x86_64-linux-gnu/libopencv_xphoto.so.4.5.4d
+ImageProcessing: /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.4.5.4d
+ImageProcessing: /usr/lib/x86_64-linux-gnu/libopencv_datasets.so.4.5.4d
+ImageProcessing: /usr/lib/x86_64-linux-gnu/libopencv_plot.so.4.5.4d
+ImageProcessing: /usr/lib/x86_64-linux-gnu/libopencv_text.so.4.5.4d
+ImageProcessing: /usr/lib/x86_64-linux-gnu/libopencv_ml.so.4.5.4d
+ImageProcessing: /usr/lib/x86_64-linux-gnu/libopencv_phase_unwrapping.so.4.5.4d
+ImageProcessing: /usr/lib/x86_64-linux-gnu/libopencv_optflow.so.4.5.4d
+ImageProcessing: /usr/lib/x86_64-linux-gnu/libopencv_ximgproc.so.4.5.4d
+ImageProcessing: /usr/lib/x86_64-linux-gnu/libopencv_video.so.4.5.4d
+ImageProcessing: /usr/lib/x86_64-linux-gnu/libopencv_videoio.so.4.5.4d
+ImageProcessing: /usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.4.5.4d
+ImageProcessing: /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.4.5.4d
+ImageProcessing: /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.4.5.4d
+ImageProcessing: /usr/lib/x86_64-linux-gnu/libopencv_dnn.so.4.5.4d
+ImageProcessing: /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.4.5.4d
+ImageProcessing: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.4.5.4d
+ImageProcessing: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.4.5.4d
+ImageProcessing: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.5.4d
+ImageProcessing: /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.5.4d
 ImageProcessing: CMakeFiles/ImageProcessing.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/katharsis/Documentos/GitHub/ImageProcessingAPIs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable ImageProcessing"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable ImageProcessing"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ImageProcessing.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -222,6 +239,6 @@ CMakeFiles/ImageProcessing.dir/clean:
 .PHONY : CMakeFiles/ImageProcessing.dir/clean
 
 CMakeFiles/ImageProcessing.dir/depend:
-	cd /home/katharsis/Documentos/GitHub/ImageProcessingAPIs/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/katharsis/Documentos/GitHub/ImageProcessingAPIs /home/katharsis/Documentos/GitHub/ImageProcessingAPIs /home/katharsis/Documentos/GitHub/ImageProcessingAPIs/cmake-build-debug /home/katharsis/Documentos/GitHub/ImageProcessingAPIs/cmake-build-debug /home/katharsis/Documentos/GitHub/ImageProcessingAPIs/cmake-build-debug/CMakeFiles/ImageProcessing.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dansecan/CLionProjects/ImageProcessingAPIs /home/dansecan/CLionProjects/ImageProcessingAPIs /home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug /home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug /home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/CMakeFiles/ImageProcessing.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ImageProcessing.dir/depend
 

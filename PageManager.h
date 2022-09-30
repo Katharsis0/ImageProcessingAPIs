@@ -25,7 +25,5 @@ class PageManager {
 
 };
 
-};
-
 
 #endif //IMAGEPROCESSING_PAGEMANAGER_H

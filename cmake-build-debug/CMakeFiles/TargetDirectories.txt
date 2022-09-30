@@ -1,3 +1,3 @@
-/home/katharsis/Documentos/GitHub/ImageProcessingAPIs/cmake-build-debug/CMakeFiles/ImageProcessing.dir
-/home/katharsis/Documentos/GitHub/ImageProcessingAPIs/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/katharsis/Documentos/GitHub/ImageProcessingAPIs/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/CMakeFiles/ImageProcessing.dir
+/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/CMakeFiles/rebuild_cache.dir

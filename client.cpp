@@ -6,18 +6,23 @@
 #include <opencv4/opencv2/opencv.hpp>
 #include <opencv4/opencv2/core.hpp>
 #include "MyImage.h"
+#include "Filters.h"
 
 using namespace std;
 using namespace cv;
 
-//Se compila con g++ -o client client.cpp `pkg-config --cflags --libs opencv4`
+//Se compila con g++ -o client client.cpp Filters.cpp MyImage.cpp `pkg-config --cflags --libs opencv4`
 int main() {
-    MyImage img= MyImage("Images/Haze6.jpg");
+    MyImage img= MyImage("Images/image.jpg");
 //    int columns=img.getColumns();
 //    int rows=img.getRows();
 //    int channels=img.getChannels();
 //    img.showBefImage();
-    std::cout << img.getRowI()<< std::endl;
+    cv::Mat matrix = img.getMatrix();
+    Filters filter = Filters(matrix,"image");
+    filter.gammaCorrection(2.2,0);
+
+    //std::cout << cols << std::endl;
 //    std::cout << "Columns: " << columns << std::endl;
 //    std::cout << "Rows: " << rows << std::endl;
 //    std::cout << "Channels: " << channels << std::endl;
