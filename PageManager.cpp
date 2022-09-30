@@ -3,3 +3,9 @@
 //
 
 #include "PageManager.h"
+
+PageManager::PageManager(Page page) {
+
+
+
+}
