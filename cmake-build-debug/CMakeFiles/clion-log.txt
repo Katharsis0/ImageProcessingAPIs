@@ -1,5 +1,4 @@
 /snap/clion/206/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" -S /home/dansecan/CLionProjects/ImageProcessingAPIs -B /home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug
--- Found OpenCV: /usr (found version "4.5.4") 
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug
