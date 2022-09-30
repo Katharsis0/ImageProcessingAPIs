@@ -21,7 +21,7 @@
 class MyImage {
     public:
         ///Constructores
-        MyImage(std::string fileName);
+        MyImage(std::string directorio);
         MyImage(cv::Mat imageMatrix);
         ///Atributos
         std::string fileName;
@@ -36,8 +36,8 @@ class MyImage {
         int getRows();
         int getChannels();
         std::string matToString();
-
         void restoreMat(std::string);
+
 
 };
 

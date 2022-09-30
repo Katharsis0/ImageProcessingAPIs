@@ -129,77 +129,29 @@ ImageProcessing/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImageProcessing.dir/build.make CMakeFiles/ImageProcessing.dir/build
 .PHONY : ImageProcessing/fast
 
-MyImage.o: MyImage.cpp.o
-.PHONY : MyImage.o
+Filters.o: Filters.cpp.o
+.PHONY : Filters.o
 
 # target to build an object file
-MyImage.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImageProcessing.dir/build.make CMakeFiles/ImageProcessing.dir/MyImage.cpp.o
-.PHONY : MyImage.cpp.o
+Filters.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImageProcessing.dir/build.make CMakeFiles/ImageProcessing.dir/Filters.cpp.o
+.PHONY : Filters.cpp.o
 
-MyImage.i: MyImage.cpp.i
-.PHONY : MyImage.i
-
-# target to preprocess a source file
-MyImage.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImageProcessing.dir/build.make CMakeFiles/ImageProcessing.dir/MyImage.cpp.i
-.PHONY : MyImage.cpp.i
-
-MyImage.s: MyImage.cpp.s
-.PHONY : MyImage.s
-
-# target to generate assembly for a file
-MyImage.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImageProcessing.dir/build.make CMakeFiles/ImageProcessing.dir/MyImage.cpp.s
-.PHONY : MyImage.cpp.s
-
-Page.o: Page.cpp.o
-.PHONY : Page.o
-
-# target to build an object file
-Page.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImageProcessing.dir/build.make CMakeFiles/ImageProcessing.dir/Page.cpp.o
-.PHONY : Page.cpp.o
-
-Page.i: Page.cpp.i
-.PHONY : Page.i
+Filters.i: Filters.cpp.i
+.PHONY : Filters.i
 
 # target to preprocess a source file
-Page.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImageProcessing.dir/build.make CMakeFiles/ImageProcessing.dir/Page.cpp.i
-.PHONY : Page.cpp.i
+Filters.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImageProcessing.dir/build.make CMakeFiles/ImageProcessing.dir/Filters.cpp.i
+.PHONY : Filters.cpp.i
 
-Page.s: Page.cpp.s
-.PHONY : Page.s
-
-# target to generate assembly for a file
-Page.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImageProcessing.dir/build.make CMakeFiles/ImageProcessing.dir/Page.cpp.s
-.PHONY : Page.cpp.s
-
-PageManager.o: PageManager.cpp.o
-.PHONY : PageManager.o
-
-# target to build an object file
-PageManager.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImageProcessing.dir/build.make CMakeFiles/ImageProcessing.dir/PageManager.cpp.o
-.PHONY : PageManager.cpp.o
-
-PageManager.i: PageManager.cpp.i
-.PHONY : PageManager.i
-
-# target to preprocess a source file
-PageManager.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImageProcessing.dir/build.make CMakeFiles/ImageProcessing.dir/PageManager.cpp.i
-.PHONY : PageManager.cpp.i
-
-PageManager.s: PageManager.cpp.s
-.PHONY : PageManager.s
+Filters.s: Filters.cpp.s
+.PHONY : Filters.s
 
 # target to generate assembly for a file
-PageManager.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImageProcessing.dir/build.make CMakeFiles/ImageProcessing.dir/PageManager.cpp.s
-.PHONY : PageManager.cpp.s
+Filters.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImageProcessing.dir/build.make CMakeFiles/ImageProcessing.dir/Filters.cpp.s
+.PHONY : Filters.cpp.s
 
 client.o: client.cpp.o
 .PHONY : client.o
@@ -225,30 +177,6 @@ client.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImageProcessing.dir/build.make CMakeFiles/ImageProcessing.dir/client.cpp.s
 .PHONY : client.cpp.s
 
-server.o: server.cpp.o
-.PHONY : server.o
-
-# target to build an object file
-server.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImageProcessing.dir/build.make CMakeFiles/ImageProcessing.dir/server.cpp.o
-.PHONY : server.cpp.o
-
-server.i: server.cpp.i
-.PHONY : server.i
-
-# target to preprocess a source file
-server.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImageProcessing.dir/build.make CMakeFiles/ImageProcessing.dir/server.cpp.i
-.PHONY : server.cpp.i
-
-server.s: server.cpp.s
-.PHONY : server.s
-
-# target to generate assembly for a file
-server.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImageProcessing.dir/build.make CMakeFiles/ImageProcessing.dir/server.cpp.s
-.PHONY : server.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -258,21 +186,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ImageProcessing"
-	@echo "... MyImage.o"
-	@echo "... MyImage.i"
-	@echo "... MyImage.s"
-	@echo "... Page.o"
-	@echo "... Page.i"
-	@echo "... Page.s"
-	@echo "... PageManager.o"
-	@echo "... PageManager.i"
-	@echo "... PageManager.s"
+	@echo "... Filters.o"
+	@echo "... Filters.i"
+	@echo "... Filters.s"
 	@echo "... client.o"
 	@echo "... client.i"
 	@echo "... client.s"
-	@echo "... server.o"
-	@echo "... server.i"
-	@echo "... server.s"
 .PHONY : help
 
 

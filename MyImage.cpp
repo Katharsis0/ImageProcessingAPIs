@@ -3,13 +3,12 @@
 //
 #include "MyImage.h"
 #include "Page.h"
-#include "PageManager.h"
 
 /**
  * @brief Constructor de la clase MyImage
  * @param string fileName: Nombre (o directorio) del archivo de la imagen
 **/
-MyImage::MyImage(std::string fileName){
+MyImage::MyImage(std::string directorio){
     this->imageMatrix = MyImage::setMatrix(fileName);
 }
 
@@ -84,15 +83,14 @@ std::string MyImage::matToString() {
         ///Aplanar la matriz
     uint totalElements= imageMatrix.total() * imageMatrix.channels();
     cv::Mat flatMatrix= imageMatrix.reshape(1, totalElements);
-    uchar* ptr= flatMatrix.data;
     ///Convertir a vector
     std::vector<uchar> vec(flatMatrix.data, flatMatrix.data + flatMatrix.total());
     ///Convertir a string
     std::stringstream ss;
     std::copy(vec.begin(), vec.end(), std::ostream_iterator<uchar>(ss, ""));
-    std::string code= ss.str();
+    std::string string= ss.str();
 
-    return code;
+    return string;
 }
 
 /**
