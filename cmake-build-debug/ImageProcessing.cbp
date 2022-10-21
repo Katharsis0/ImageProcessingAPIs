@@ -391,9 +391,6 @@
 		<Unit filename="/home/dansecan/CLionProjects/ImageProcessingAPIs/Google_tests/Google_Tests_run/filterTests.cpp">
 			<Option target="Google_Tests_run"/>
 		</Unit>
-		<Unit filename="/home/dansecan/CLionProjects/ImageProcessingAPIs/Google_tests/Google_Tests_run/filterTests.h">
-			<Option target="Google_Tests_run"/>
-		</Unit>
 		<Unit filename="/home/dansecan/CLionProjects/ImageProcessingAPIs/Google_tests/lib/googlemock/src/gmock-all.cc">
 			<Option target="gmock"/>
 		</Unit>
