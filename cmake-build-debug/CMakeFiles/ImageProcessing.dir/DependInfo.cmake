@@ -8,12 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/dansecan/CLionProjects/ImageProcessingAPIs/Filters.cpp" "CMakeFiles/ImageProcessing.dir/Filters.cpp.o" "gcc" "CMakeFiles/ImageProcessing.dir/Filters.cpp.o.d"
-  "/home/dansecan/CLionProjects/ImageProcessingAPIs/MyImage.cpp" "CMakeFiles/ImageProcessing.dir/MyImage.cpp.o" "gcc" "CMakeFiles/ImageProcessing.dir/MyImage.cpp.o.d"
-  "/home/dansecan/CLionProjects/ImageProcessingAPIs/Page.cpp" "CMakeFiles/ImageProcessing.dir/Page.cpp.o" "gcc" "CMakeFiles/ImageProcessing.dir/Page.cpp.o.d"
-  "/home/dansecan/CLionProjects/ImageProcessingAPIs/PageManager.cpp" "CMakeFiles/ImageProcessing.dir/PageManager.cpp.o" "gcc" "CMakeFiles/ImageProcessing.dir/PageManager.cpp.o.d"
-  "/home/dansecan/CLionProjects/ImageProcessingAPIs/client.cpp" "CMakeFiles/ImageProcessing.dir/client.cpp.o" "gcc" "CMakeFiles/ImageProcessing.dir/client.cpp.o.d"
-  "/home/dansecan/CLionProjects/ImageProcessingAPIs/server.cpp" "CMakeFiles/ImageProcessing.dir/server.cpp.o" "gcc" "CMakeFiles/ImageProcessing.dir/server.cpp.o.d"
+  "/home/dansecan/CLionProjects/ImageProcessingAPIs/src/Filters.cpp" "CMakeFiles/ImageProcessing.dir/src/Filters.cpp.o" "gcc" "CMakeFiles/ImageProcessing.dir/src/Filters.cpp.o.d"
+  "/home/dansecan/CLionProjects/ImageProcessingAPIs/src/MyImage.cpp" "CMakeFiles/ImageProcessing.dir/src/MyImage.cpp.o" "gcc" "CMakeFiles/ImageProcessing.dir/src/MyImage.cpp.o.d"
+  "/home/dansecan/CLionProjects/ImageProcessingAPIs/src/Page.cpp" "CMakeFiles/ImageProcessing.dir/src/Page.cpp.o" "gcc" "CMakeFiles/ImageProcessing.dir/src/Page.cpp.o.d"
+  "/home/dansecan/CLionProjects/ImageProcessingAPIs/src/PageManager.cpp" "CMakeFiles/ImageProcessing.dir/src/PageManager.cpp.o" "gcc" "CMakeFiles/ImageProcessing.dir/src/PageManager.cpp.o.d"
+  "/home/dansecan/CLionProjects/ImageProcessingAPIs/src/client.cpp" "CMakeFiles/ImageProcessing.dir/src/client.cpp.o" "gcc" "CMakeFiles/ImageProcessing.dir/src/client.cpp.o.d"
+  "/home/dansecan/CLionProjects/ImageProcessingAPIs/src/server.cpp" "CMakeFiles/ImageProcessing.dir/src/server.cpp.o" "gcc" "CMakeFiles/ImageProcessing.dir/src/server.cpp.o.d"
   )
 
 # Targets to which this target links.

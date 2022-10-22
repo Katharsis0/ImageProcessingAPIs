@@ -300,13 +300,13 @@ Google_tests_SOURCE_DIR:STATIC=/home/dansecan/CLionProjects/ImageProcessingAPIs/
 INSTALL_GTEST:BOOL=ON
 
 //Value Computed by CMake
-ImageProcessing_BINARY_DIR:STATIC=/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug
+ImageProcessing_BINARY_DIR:STATIC=/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/src
 
 //Value Computed by CMake
-ImageProcessing_IS_TOP_LEVEL:STATIC=ON
+ImageProcessing_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-ImageProcessing_SOURCE_DIR:STATIC=/home/dansecan/CLionProjects/ImageProcessingAPIs
+ImageProcessing_SOURCE_DIR:STATIC=/home/dansecan/CLionProjects/ImageProcessingAPIs/src
 
 //The directory containing a CMake configuration file for OpenCV.
 OpenCV_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/opencv4
@@ -318,7 +318,7 @@ ProcessorCount_cmd_nproc:FILEPATH=/usr/bin/nproc
 ProcessorCount_cmd_sysctl:FILEPATH=/usr/sbin/sysctl
 
 //Value Computed by CMake
-gmock_BINARY_DIR:STATIC=/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/Google_tests/lib/googlemock
+gmock_BINARY_DIR:STATIC=/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/lib/googlemock
 
 //Value Computed by CMake
 gmock_IS_TOP_LEVEL:STATIC=OFF
@@ -327,7 +327,7 @@ gmock_IS_TOP_LEVEL:STATIC=OFF
 gmock_LIB_DEPENDS:STATIC=general;gtest;
 
 //Value Computed by CMake
-gmock_SOURCE_DIR:STATIC=/home/dansecan/CLionProjects/ImageProcessingAPIs/Google_tests/lib/googlemock
+gmock_SOURCE_DIR:STATIC=/home/dansecan/CLionProjects/ImageProcessingAPIs/lib/googlemock
 
 //Build all of Google Mock's own tests.
 gmock_build_tests:BOOL=OFF
@@ -345,13 +345,13 @@ googletest-distribution_IS_TOP_LEVEL:STATIC=OFF
 googletest-distribution_SOURCE_DIR:STATIC=/home/dansecan/CLionProjects/ImageProcessingAPIs/Google_tests/lib
 
 //Value Computed by CMake
-gtest_BINARY_DIR:STATIC=/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/Google_tests/lib/googletest
+gtest_BINARY_DIR:STATIC=/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/lib/googletest
 
 //Value Computed by CMake
 gtest_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-gtest_SOURCE_DIR:STATIC=/home/dansecan/CLionProjects/ImageProcessingAPIs/Google_tests/lib/googletest
+gtest_SOURCE_DIR:STATIC=/home/dansecan/CLionProjects/ImageProcessingAPIs/lib/googletest
 
 //Build gtest's sample programs.
 gtest_build_samples:BOOL=OFF
@@ -521,7 +521,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=6
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=4
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -582,7 +582,7 @@ _Python_EXECUTABLE:INTERNAL=/usr/bin/python3.10
 _Python_INTERPRETER_PROPERTIES:INTERNAL=Python;3;10;6;64;;cpython-310-x86_64-linux-gnu;/usr/lib/python3.10;/usr/lib/python3.10;/usr/lib/python3/dist-packages;/usr/lib/python3/dist-packages
 _Python_INTERPRETER_SIGNATURE:INTERNAL=61380851b1f49cd20124cec6c9ca8095
 cmake_package_name:INTERNAL=GTest
-generated_dir:INTERNAL=/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/Google_tests/lib/googletest/generated
+generated_dir:INTERNAL=/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/lib/googletest/generated
 //ADVANCED property for variable: gmock_build_tests
 gmock_build_tests-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: gtest_build_samples

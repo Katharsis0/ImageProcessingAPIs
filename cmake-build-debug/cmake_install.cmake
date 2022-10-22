@@ -44,7 +44,17 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/Google_tests/cmake_install.cmake")
+  include("/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/src/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/Google_Tests_run/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/lib/googletest/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

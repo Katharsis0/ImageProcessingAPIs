@@ -175,30 +175,43 @@ ImageProcessing/fast:
 .PHONY : ImageProcessing/fast
 
 #=============================================================================
-# Target rules for targets named gmock
+# Target rules for targets named _run
 
 # Build rule for target.
-gmock: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gmock
-.PHONY : gmock
+_run: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _run
+.PHONY : _run
 
 # fast build rule for target.
-gmock/fast:
-	$(MAKE) $(MAKESILENT) -f Google_tests/lib/googlemock/CMakeFiles/gmock.dir/build.make Google_tests/lib/googlemock/CMakeFiles/gmock.dir/build
-.PHONY : gmock/fast
+_run/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/_run.dir/build.make src/CMakeFiles/_run.dir/build
+.PHONY : _run/fast
 
 #=============================================================================
-# Target rules for targets named gmock_main
+# Target rules for targets named _lib
 
 # Build rule for target.
-gmock_main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gmock_main
-.PHONY : gmock_main
+_lib: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _lib
+.PHONY : _lib
 
 # fast build rule for target.
-gmock_main/fast:
-	$(MAKE) $(MAKESILENT) -f Google_tests/lib/googlemock/CMakeFiles/gmock_main.dir/build.make Google_tests/lib/googlemock/CMakeFiles/gmock_main.dir/build
-.PHONY : gmock_main/fast
+_lib/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/_lib.dir/build.make src/CMakeFiles/_lib.dir/build
+.PHONY : _lib/fast
+
+#=============================================================================
+# Target rules for targets named ImageProcessing_tst
+
+# Build rule for target.
+ImageProcessing_tst: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ImageProcessing_tst
+.PHONY : ImageProcessing_tst
+
+# fast build rule for target.
+ImageProcessing_tst/fast:
+	$(MAKE) $(MAKESILENT) -f Google_Tests_run/CMakeFiles/ImageProcessing_tst.dir/build.make Google_Tests_run/CMakeFiles/ImageProcessing_tst.dir/build
+.PHONY : ImageProcessing_tst/fast
 
 #=============================================================================
 # Target rules for targets named gtest
@@ -210,7 +223,7 @@ gtest: cmake_check_build_system
 
 # fast build rule for target.
 gtest/fast:
-	$(MAKE) $(MAKESILENT) -f Google_tests/lib/googletest/CMakeFiles/gtest.dir/build.make Google_tests/lib/googletest/CMakeFiles/gtest.dir/build
+	$(MAKE) $(MAKESILENT) -f lib/googletest/CMakeFiles/gtest.dir/build.make lib/googletest/CMakeFiles/gtest.dir/build
 .PHONY : gtest/fast
 
 #=============================================================================
@@ -223,165 +236,152 @@ gtest_main: cmake_check_build_system
 
 # fast build rule for target.
 gtest_main/fast:
-	$(MAKE) $(MAKESILENT) -f Google_tests/lib/googletest/CMakeFiles/gtest_main.dir/build.make Google_tests/lib/googletest/CMakeFiles/gtest_main.dir/build
+	$(MAKE) $(MAKESILENT) -f lib/googletest/CMakeFiles/gtest_main.dir/build.make lib/googletest/CMakeFiles/gtest_main.dir/build
 .PHONY : gtest_main/fast
 
-#=============================================================================
-# Target rules for targets named Google_Tests_run
-
-# Build rule for target.
-Google_Tests_run: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Google_Tests_run
-.PHONY : Google_Tests_run
-
-# fast build rule for target.
-Google_Tests_run/fast:
-	$(MAKE) $(MAKESILENT) -f Google_tests/Google_Tests_run/CMakeFiles/Google_Tests_run.dir/build.make Google_tests/Google_Tests_run/CMakeFiles/Google_Tests_run.dir/build
-.PHONY : Google_Tests_run/fast
-
-Filters.o: Filters.cpp.o
-.PHONY : Filters.o
+src/Filters.o: src/Filters.cpp.o
+.PHONY : src/Filters.o
 
 # target to build an object file
-Filters.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImageProcessing.dir/build.make CMakeFiles/ImageProcessing.dir/Filters.cpp.o
-.PHONY : Filters.cpp.o
+src/Filters.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImageProcessing.dir/build.make CMakeFiles/ImageProcessing.dir/src/Filters.cpp.o
+.PHONY : src/Filters.cpp.o
 
-Filters.i: Filters.cpp.i
-.PHONY : Filters.i
+src/Filters.i: src/Filters.cpp.i
+.PHONY : src/Filters.i
 
 # target to preprocess a source file
-Filters.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImageProcessing.dir/build.make CMakeFiles/ImageProcessing.dir/Filters.cpp.i
-.PHONY : Filters.cpp.i
+src/Filters.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImageProcessing.dir/build.make CMakeFiles/ImageProcessing.dir/src/Filters.cpp.i
+.PHONY : src/Filters.cpp.i
 
-Filters.s: Filters.cpp.s
-.PHONY : Filters.s
+src/Filters.s: src/Filters.cpp.s
+.PHONY : src/Filters.s
 
 # target to generate assembly for a file
-Filters.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImageProcessing.dir/build.make CMakeFiles/ImageProcessing.dir/Filters.cpp.s
-.PHONY : Filters.cpp.s
+src/Filters.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImageProcessing.dir/build.make CMakeFiles/ImageProcessing.dir/src/Filters.cpp.s
+.PHONY : src/Filters.cpp.s
 
-MyImage.o: MyImage.cpp.o
-.PHONY : MyImage.o
+src/MyImage.o: src/MyImage.cpp.o
+.PHONY : src/MyImage.o
 
 # target to build an object file
-MyImage.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImageProcessing.dir/build.make CMakeFiles/ImageProcessing.dir/MyImage.cpp.o
-.PHONY : MyImage.cpp.o
+src/MyImage.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImageProcessing.dir/build.make CMakeFiles/ImageProcessing.dir/src/MyImage.cpp.o
+.PHONY : src/MyImage.cpp.o
 
-MyImage.i: MyImage.cpp.i
-.PHONY : MyImage.i
+src/MyImage.i: src/MyImage.cpp.i
+.PHONY : src/MyImage.i
 
 # target to preprocess a source file
-MyImage.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImageProcessing.dir/build.make CMakeFiles/ImageProcessing.dir/MyImage.cpp.i
-.PHONY : MyImage.cpp.i
+src/MyImage.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImageProcessing.dir/build.make CMakeFiles/ImageProcessing.dir/src/MyImage.cpp.i
+.PHONY : src/MyImage.cpp.i
 
-MyImage.s: MyImage.cpp.s
-.PHONY : MyImage.s
+src/MyImage.s: src/MyImage.cpp.s
+.PHONY : src/MyImage.s
 
 # target to generate assembly for a file
-MyImage.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImageProcessing.dir/build.make CMakeFiles/ImageProcessing.dir/MyImage.cpp.s
-.PHONY : MyImage.cpp.s
+src/MyImage.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImageProcessing.dir/build.make CMakeFiles/ImageProcessing.dir/src/MyImage.cpp.s
+.PHONY : src/MyImage.cpp.s
 
-Page.o: Page.cpp.o
-.PHONY : Page.o
+src/Page.o: src/Page.cpp.o
+.PHONY : src/Page.o
 
 # target to build an object file
-Page.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImageProcessing.dir/build.make CMakeFiles/ImageProcessing.dir/Page.cpp.o
-.PHONY : Page.cpp.o
+src/Page.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImageProcessing.dir/build.make CMakeFiles/ImageProcessing.dir/src/Page.cpp.o
+.PHONY : src/Page.cpp.o
 
-Page.i: Page.cpp.i
-.PHONY : Page.i
+src/Page.i: src/Page.cpp.i
+.PHONY : src/Page.i
 
 # target to preprocess a source file
-Page.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImageProcessing.dir/build.make CMakeFiles/ImageProcessing.dir/Page.cpp.i
-.PHONY : Page.cpp.i
+src/Page.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImageProcessing.dir/build.make CMakeFiles/ImageProcessing.dir/src/Page.cpp.i
+.PHONY : src/Page.cpp.i
 
-Page.s: Page.cpp.s
-.PHONY : Page.s
+src/Page.s: src/Page.cpp.s
+.PHONY : src/Page.s
 
 # target to generate assembly for a file
-Page.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImageProcessing.dir/build.make CMakeFiles/ImageProcessing.dir/Page.cpp.s
-.PHONY : Page.cpp.s
+src/Page.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImageProcessing.dir/build.make CMakeFiles/ImageProcessing.dir/src/Page.cpp.s
+.PHONY : src/Page.cpp.s
 
-PageManager.o: PageManager.cpp.o
-.PHONY : PageManager.o
+src/PageManager.o: src/PageManager.cpp.o
+.PHONY : src/PageManager.o
 
 # target to build an object file
-PageManager.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImageProcessing.dir/build.make CMakeFiles/ImageProcessing.dir/PageManager.cpp.o
-.PHONY : PageManager.cpp.o
+src/PageManager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImageProcessing.dir/build.make CMakeFiles/ImageProcessing.dir/src/PageManager.cpp.o
+.PHONY : src/PageManager.cpp.o
 
-PageManager.i: PageManager.cpp.i
-.PHONY : PageManager.i
+src/PageManager.i: src/PageManager.cpp.i
+.PHONY : src/PageManager.i
 
 # target to preprocess a source file
-PageManager.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImageProcessing.dir/build.make CMakeFiles/ImageProcessing.dir/PageManager.cpp.i
-.PHONY : PageManager.cpp.i
+src/PageManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImageProcessing.dir/build.make CMakeFiles/ImageProcessing.dir/src/PageManager.cpp.i
+.PHONY : src/PageManager.cpp.i
 
-PageManager.s: PageManager.cpp.s
-.PHONY : PageManager.s
+src/PageManager.s: src/PageManager.cpp.s
+.PHONY : src/PageManager.s
 
 # target to generate assembly for a file
-PageManager.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImageProcessing.dir/build.make CMakeFiles/ImageProcessing.dir/PageManager.cpp.s
-.PHONY : PageManager.cpp.s
+src/PageManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImageProcessing.dir/build.make CMakeFiles/ImageProcessing.dir/src/PageManager.cpp.s
+.PHONY : src/PageManager.cpp.s
 
-client.o: client.cpp.o
-.PHONY : client.o
+src/client.o: src/client.cpp.o
+.PHONY : src/client.o
 
 # target to build an object file
-client.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImageProcessing.dir/build.make CMakeFiles/ImageProcessing.dir/client.cpp.o
-.PHONY : client.cpp.o
+src/client.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImageProcessing.dir/build.make CMakeFiles/ImageProcessing.dir/src/client.cpp.o
+.PHONY : src/client.cpp.o
 
-client.i: client.cpp.i
-.PHONY : client.i
+src/client.i: src/client.cpp.i
+.PHONY : src/client.i
 
 # target to preprocess a source file
-client.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImageProcessing.dir/build.make CMakeFiles/ImageProcessing.dir/client.cpp.i
-.PHONY : client.cpp.i
+src/client.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImageProcessing.dir/build.make CMakeFiles/ImageProcessing.dir/src/client.cpp.i
+.PHONY : src/client.cpp.i
 
-client.s: client.cpp.s
-.PHONY : client.s
+src/client.s: src/client.cpp.s
+.PHONY : src/client.s
 
 # target to generate assembly for a file
-client.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImageProcessing.dir/build.make CMakeFiles/ImageProcessing.dir/client.cpp.s
-.PHONY : client.cpp.s
+src/client.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImageProcessing.dir/build.make CMakeFiles/ImageProcessing.dir/src/client.cpp.s
+.PHONY : src/client.cpp.s
 
-server.o: server.cpp.o
-.PHONY : server.o
+src/server.o: src/server.cpp.o
+.PHONY : src/server.o
 
 # target to build an object file
-server.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImageProcessing.dir/build.make CMakeFiles/ImageProcessing.dir/server.cpp.o
-.PHONY : server.cpp.o
+src/server.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImageProcessing.dir/build.make CMakeFiles/ImageProcessing.dir/src/server.cpp.o
+.PHONY : src/server.cpp.o
 
-server.i: server.cpp.i
-.PHONY : server.i
+src/server.i: src/server.cpp.i
+.PHONY : src/server.i
 
 # target to preprocess a source file
-server.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImageProcessing.dir/build.make CMakeFiles/ImageProcessing.dir/server.cpp.i
-.PHONY : server.cpp.i
+src/server.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImageProcessing.dir/build.make CMakeFiles/ImageProcessing.dir/src/server.cpp.i
+.PHONY : src/server.cpp.i
 
-server.s: server.cpp.s
-.PHONY : server.s
+src/server.s: src/server.cpp.s
+.PHONY : src/server.s
 
 # target to generate assembly for a file
-server.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImageProcessing.dir/build.make CMakeFiles/ImageProcessing.dir/server.cpp.s
-.PHONY : server.cpp.s
+src/server.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImageProcessing.dir/build.make CMakeFiles/ImageProcessing.dir/src/server.cpp.s
+.PHONY : src/server.cpp.s
 
 # Help Target
 help:
@@ -395,30 +395,30 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... Google_Tests_run"
 	@echo "... ImageProcessing"
-	@echo "... gmock"
-	@echo "... gmock_main"
+	@echo "... ImageProcessing_tst"
+	@echo "... _lib"
+	@echo "... _run"
 	@echo "... gtest"
 	@echo "... gtest_main"
-	@echo "... Filters.o"
-	@echo "... Filters.i"
-	@echo "... Filters.s"
-	@echo "... MyImage.o"
-	@echo "... MyImage.i"
-	@echo "... MyImage.s"
-	@echo "... Page.o"
-	@echo "... Page.i"
-	@echo "... Page.s"
-	@echo "... PageManager.o"
-	@echo "... PageManager.i"
-	@echo "... PageManager.s"
-	@echo "... client.o"
-	@echo "... client.i"
-	@echo "... client.s"
-	@echo "... server.o"
-	@echo "... server.i"
-	@echo "... server.s"
+	@echo "... src/Filters.o"
+	@echo "... src/Filters.i"
+	@echo "... src/Filters.s"
+	@echo "... src/MyImage.o"
+	@echo "... src/MyImage.i"
+	@echo "... src/MyImage.s"
+	@echo "... src/Page.o"
+	@echo "... src/Page.i"
+	@echo "... src/Page.s"
+	@echo "... src/PageManager.o"
+	@echo "... src/PageManager.i"
+	@echo "... src/PageManager.s"
+	@echo "... src/client.o"
+	@echo "... src/client.i"
+	@echo "... src/client.s"
+	@echo "... src/server.o"
+	@echo "... src/server.i"
+	@echo "... src/server.s"
 .PHONY : help
 
 

@@ -38,6 +38,7 @@ endif()
 # Language "C" is required for find_package(Threads).
 cmake_minimum_required(VERSION 3.5)
 cmake_policy(SET CMP0048 NEW)
+set(GOOGLETEST_VERSION 1.12.1)
 project(gmock VERSION ${GOOGLETEST_VERSION} LANGUAGES CXX C)
 
 if (COMMAND set_up_hermetic_build)
@@ -48,7 +49,8 @@ endif()
 # targets to the current scope.  We are placing Google Test's binary
 # directory in a subdirectory of our own as VC compilation may break
 # if they are the same (the default).
-add_subdirectory("${gtest_dir}" "${gmock_BINARY_DIR}/${gtest_dir}")
+add_subdirectory("${gtest_dir}" "${gtest_dir}")
+
 
 
 # These commands only run if this is the main project

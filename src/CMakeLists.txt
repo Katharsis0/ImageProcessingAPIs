@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 3.23)
+project(ImageProcessing)
+
+file(GLOB_RECURSE SOURCES LIST_DIRECTORIES true *.h *.cpp)
+find_package(OpenCV REQUIRED)
+set(SOURCES ${SOURCES})
+set(CMAKE_CXX_STANDARD 14)
+include_directories( ${OpenCV_INCLUDE_DIRS} )
+add_executable(${BINARY}_run ${SOURCES})
+add_library(${BINARY}_lib STATIC ${SOURCES})

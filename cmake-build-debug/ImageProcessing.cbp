@@ -5,7 +5,7 @@
 		<Option title="ImageProcessing"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\Google_tests\;CMake Files\Google_tests\lib\;CMake Files\Google_tests\lib\googlemock\;CMake Files\Google_tests\lib\googlemock\cmake\;CMake Files\Google_tests\lib\googletest\;CMake Files\Google_tests\lib\googletest\cmake\;CMake Files\Google_tests\Google_Tests_run\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\opencv4\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\opencv4\;CMake Files\src\;CMake Files\Google_Tests_run\;CMake Files\lib\;CMake Files\lib\googletest\;CMake Files\lib\googletest\cmake\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug"/>
@@ -123,18 +123,14 @@
 					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="gmock">
-				<Option output="/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/lib/libgmock.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/Google_tests/lib/googlemock"/>
+			<Target title="_run">
+				<Option output="/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/src/_run" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/src"/>
 				<Option object_output="./"/>
-				<Option type="2"/>
+				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/usr/include/opencv4"/>
-					<Add directory="/home/dansecan/CLionProjects/ImageProcessingAPIs/Google_tests/lib/googlemock/include"/>
-					<Add directory="/home/dansecan/CLionProjects/ImageProcessingAPIs/Google_tests/lib/googlemock"/>
-					<Add directory="/home/dansecan/CLionProjects/ImageProcessingAPIs/Google_tests/lib/googletest/include"/>
-					<Add directory="/home/dansecan/CLionProjects/ImageProcessingAPIs/Google_tests/lib/googletest"/>
 					<Add directory="/usr/include/c++/11"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
 					<Add directory="/usr/include/c++/11/backward"/>
@@ -144,24 +140,20 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j2 -f &quot;/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/Google_tests/lib/googlemock/Makefile&quot;  VERBOSE=1 gmock"/>
-					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/Google_tests/lib/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/Google_tests/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/Google_tests/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 _run"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="gmock/fast">
-				<Option output="/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/lib/libgmock.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/Google_tests/lib/googlemock"/>
+			<Target title="_run/fast">
+				<Option output="/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/src/_run" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/src"/>
 				<Option object_output="./"/>
-				<Option type="2"/>
+				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/usr/include/opencv4"/>
-					<Add directory="/home/dansecan/CLionProjects/ImageProcessingAPIs/Google_tests/lib/googlemock/include"/>
-					<Add directory="/home/dansecan/CLionProjects/ImageProcessingAPIs/Google_tests/lib/googlemock"/>
-					<Add directory="/home/dansecan/CLionProjects/ImageProcessingAPIs/Google_tests/lib/googletest/include"/>
-					<Add directory="/home/dansecan/CLionProjects/ImageProcessingAPIs/Google_tests/lib/googletest"/>
 					<Add directory="/usr/include/c++/11"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
 					<Add directory="/usr/include/c++/11/backward"/>
@@ -171,24 +163,20 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j2 -f &quot;/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/Google_tests/lib/googlemock/Makefile&quot;  VERBOSE=1 gmock/fast"/>
-					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/Google_tests/lib/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/Google_tests/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/Google_tests/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 _run/fast"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="gmock_main">
-				<Option output="/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/lib/libgmock_main.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/Google_tests/lib/googlemock"/>
+			<Target title="_lib">
+				<Option output="/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/src/lib_lib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/src"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/usr/include/opencv4"/>
-					<Add directory="/home/dansecan/CLionProjects/ImageProcessingAPIs/Google_tests/lib/googlemock/include"/>
-					<Add directory="/home/dansecan/CLionProjects/ImageProcessingAPIs/Google_tests/lib/googlemock"/>
-					<Add directory="/home/dansecan/CLionProjects/ImageProcessingAPIs/Google_tests/lib/googletest/include"/>
-					<Add directory="/home/dansecan/CLionProjects/ImageProcessingAPIs/Google_tests/lib/googletest"/>
 					<Add directory="/usr/include/c++/11"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
 					<Add directory="/usr/include/c++/11/backward"/>
@@ -198,24 +186,20 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j2 -f &quot;/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/Google_tests/lib/googlemock/Makefile&quot;  VERBOSE=1 gmock_main"/>
-					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/Google_tests/lib/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/Google_tests/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/Google_tests/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 _lib"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="gmock_main/fast">
-				<Option output="/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/lib/libgmock_main.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/Google_tests/lib/googlemock"/>
+			<Target title="_lib/fast">
+				<Option output="/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/src/lib_lib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/src"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/usr/include/opencv4"/>
-					<Add directory="/home/dansecan/CLionProjects/ImageProcessingAPIs/Google_tests/lib/googlemock/include"/>
-					<Add directory="/home/dansecan/CLionProjects/ImageProcessingAPIs/Google_tests/lib/googlemock"/>
-					<Add directory="/home/dansecan/CLionProjects/ImageProcessingAPIs/Google_tests/lib/googletest/include"/>
-					<Add directory="/home/dansecan/CLionProjects/ImageProcessingAPIs/Google_tests/lib/googletest"/>
 					<Add directory="/usr/include/c++/11"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
 					<Add directory="/usr/include/c++/11/backward"/>
@@ -225,22 +209,72 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j2 -f &quot;/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/Google_tests/lib/googlemock/Makefile&quot;  VERBOSE=1 gmock_main/fast"/>
-					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/Google_tests/lib/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/Google_tests/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/Google_tests/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 _lib/fast"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ImageProcessing_tst">
+				<Option output="/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/Google_Tests_run/ImageProcessing_tst" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/Google_Tests_run"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/opencv4"/>
+					<Add directory="/home/dansecan/CLionProjects/ImageProcessingAPIs/lib/googletest/include"/>
+					<Add directory="/home/dansecan/CLionProjects/ImageProcessingAPIs/lib/googletest"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/Google_Tests_run/Makefile&quot;  VERBOSE=1 ImageProcessing_tst"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/Google_Tests_run/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/Google_Tests_run/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/Google_Tests_run/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ImageProcessing_tst/fast">
+				<Option output="/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/Google_Tests_run/ImageProcessing_tst" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/Google_Tests_run"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/opencv4"/>
+					<Add directory="/home/dansecan/CLionProjects/ImageProcessingAPIs/lib/googletest/include"/>
+					<Add directory="/home/dansecan/CLionProjects/ImageProcessingAPIs/lib/googletest"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/Google_Tests_run/Makefile&quot;  VERBOSE=1 ImageProcessing_tst/fast"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/Google_Tests_run/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/Google_Tests_run/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/Google_Tests_run/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gtest">
 				<Option output="/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/lib/libgtest.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/Google_tests/lib/googletest"/>
+				<Option working_dir="/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/lib/googletest"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/usr/include/opencv4"/>
-					<Add directory="/home/dansecan/CLionProjects/ImageProcessingAPIs/Google_tests/lib/googletest/include"/>
-					<Add directory="/home/dansecan/CLionProjects/ImageProcessingAPIs/Google_tests/lib/googletest"/>
+					<Add directory="/home/dansecan/CLionProjects/ImageProcessingAPIs/lib/googletest/include"/>
+					<Add directory="/home/dansecan/CLionProjects/ImageProcessingAPIs/lib/googletest"/>
 					<Add directory="/usr/include/c++/11"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
 					<Add directory="/usr/include/c++/11/backward"/>
@@ -250,22 +284,22 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j2 -f &quot;/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/Google_tests/lib/googletest/Makefile&quot;  VERBOSE=1 gtest"/>
-					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/Google_tests/lib/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/Google_tests/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/Google_tests/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/lib/googletest/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/lib/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gtest/fast">
 				<Option output="/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/lib/libgtest.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/Google_tests/lib/googletest"/>
+				<Option working_dir="/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/lib/googletest"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/usr/include/opencv4"/>
-					<Add directory="/home/dansecan/CLionProjects/ImageProcessingAPIs/Google_tests/lib/googletest/include"/>
-					<Add directory="/home/dansecan/CLionProjects/ImageProcessingAPIs/Google_tests/lib/googletest"/>
+					<Add directory="/home/dansecan/CLionProjects/ImageProcessingAPIs/lib/googletest/include"/>
+					<Add directory="/home/dansecan/CLionProjects/ImageProcessingAPIs/lib/googletest"/>
 					<Add directory="/usr/include/c++/11"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
 					<Add directory="/usr/include/c++/11/backward"/>
@@ -275,22 +309,22 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j2 -f &quot;/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/Google_tests/lib/googletest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
-					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/Google_tests/lib/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/Google_tests/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/Google_tests/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/lib/googletest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/lib/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gtest_main">
 				<Option output="/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/lib/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/Google_tests/lib/googletest"/>
+				<Option working_dir="/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/lib/googletest"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/usr/include/opencv4"/>
-					<Add directory="/home/dansecan/CLionProjects/ImageProcessingAPIs/Google_tests/lib/googletest/include"/>
-					<Add directory="/home/dansecan/CLionProjects/ImageProcessingAPIs/Google_tests/lib/googletest"/>
+					<Add directory="/home/dansecan/CLionProjects/ImageProcessingAPIs/lib/googletest/include"/>
+					<Add directory="/home/dansecan/CLionProjects/ImageProcessingAPIs/lib/googletest"/>
 					<Add directory="/usr/include/c++/11"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
 					<Add directory="/usr/include/c++/11/backward"/>
@@ -300,22 +334,22 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j2 -f &quot;/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/Google_tests/lib/googletest/Makefile&quot;  VERBOSE=1 gtest_main"/>
-					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/Google_tests/lib/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/Google_tests/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/Google_tests/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/lib/googletest/Makefile&quot;  VERBOSE=1 gtest_main"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/lib/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gtest_main/fast">
 				<Option output="/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/lib/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/Google_tests/lib/googletest"/>
+				<Option working_dir="/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/lib/googletest"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/usr/include/opencv4"/>
-					<Add directory="/home/dansecan/CLionProjects/ImageProcessingAPIs/Google_tests/lib/googletest/include"/>
-					<Add directory="/home/dansecan/CLionProjects/ImageProcessingAPIs/Google_tests/lib/googletest"/>
+					<Add directory="/home/dansecan/CLionProjects/ImageProcessingAPIs/lib/googletest/include"/>
+					<Add directory="/home/dansecan/CLionProjects/ImageProcessingAPIs/lib/googletest"/>
 					<Add directory="/usr/include/c++/11"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
 					<Add directory="/usr/include/c++/11/backward"/>
@@ -325,143 +359,74 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j2 -f &quot;/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/Google_tests/lib/googletest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
-					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/Google_tests/lib/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/Google_tests/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/Google_tests/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Google_Tests_run">
-				<Option output="/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/Google_tests/Google_Tests_run/Google_Tests_run" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/Google_tests/Google_Tests_run"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/opencv4"/>
-					<Add directory="/home/dansecan/CLionProjects/ImageProcessingAPIs/Google_tests/lib/googletest/include"/>
-					<Add directory="/home/dansecan/CLionProjects/ImageProcessingAPIs/Google_tests/lib/googletest"/>
-					<Add directory="/usr/include/c++/11"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
-					<Add directory="/usr/include/c++/11/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/gmake -j2 -f &quot;/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/Google_tests/Google_Tests_run/Makefile&quot;  VERBOSE=1 Google_Tests_run"/>
-					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/Google_tests/Google_Tests_run/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/Google_tests/Google_Tests_run/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/Google_tests/Google_Tests_run/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Google_Tests_run/fast">
-				<Option output="/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/Google_tests/Google_Tests_run/Google_Tests_run" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/Google_tests/Google_Tests_run"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/opencv4"/>
-					<Add directory="/home/dansecan/CLionProjects/ImageProcessingAPIs/Google_tests/lib/googletest/include"/>
-					<Add directory="/home/dansecan/CLionProjects/ImageProcessingAPIs/Google_tests/lib/googletest"/>
-					<Add directory="/usr/include/c++/11"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
-					<Add directory="/usr/include/c++/11/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/gmake -j2 -f &quot;/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/Google_tests/Google_Tests_run/Makefile&quot;  VERBOSE=1 Google_Tests_run/fast"/>
-					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/Google_tests/Google_Tests_run/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/Google_tests/Google_Tests_run/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/Google_tests/Google_Tests_run/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j2 -f &quot;/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/lib/googletest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
+					<CompileFile command="/usr/bin/gmake -j2 -f &quot;/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/lib/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j2 -f &quot;/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j2 -f &quot;/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/dansecan/CLionProjects/ImageProcessingAPIs/Filters.cpp">
-			<Option target="ImageProcessing"/>
+		<Unit filename="/home/dansecan/CLionProjects/ImageProcessingAPIs/Google_Tests_run/filterTests.cpp">
+			<Option target="ImageProcessing_tst"/>
 		</Unit>
-		<Unit filename="/home/dansecan/CLionProjects/ImageProcessingAPIs/Filters.h">
-			<Option target="ImageProcessing"/>
-		</Unit>
-		<Unit filename="/home/dansecan/CLionProjects/ImageProcessingAPIs/Google_tests/Google_Tests_run/filterTests.cpp">
-			<Option target="Google_Tests_run"/>
-		</Unit>
-		<Unit filename="/home/dansecan/CLionProjects/ImageProcessingAPIs/Google_tests/lib/googlemock/src/gmock-all.cc">
-			<Option target="gmock"/>
-		</Unit>
-		<Unit filename="/home/dansecan/CLionProjects/ImageProcessingAPIs/Google_tests/lib/googlemock/src/gmock_main.cc">
-			<Option target="gmock_main"/>
-		</Unit>
-		<Unit filename="/home/dansecan/CLionProjects/ImageProcessingAPIs/Google_tests/lib/googletest/src/gtest-all.cc">
+		<Unit filename="/home/dansecan/CLionProjects/ImageProcessingAPIs/lib/googletest/src/gtest-all.cc">
 			<Option target="gtest"/>
 		</Unit>
-		<Unit filename="/home/dansecan/CLionProjects/ImageProcessingAPIs/Google_tests/lib/googletest/src/gtest_main.cc">
+		<Unit filename="/home/dansecan/CLionProjects/ImageProcessingAPIs/lib/googletest/src/gtest_main.cc">
 			<Option target="gtest_main"/>
 		</Unit>
-		<Unit filename="/home/dansecan/CLionProjects/ImageProcessingAPIs/MyImage.cpp">
+		<Unit filename="/home/dansecan/CLionProjects/ImageProcessingAPIs/src/Filters.cpp">
 			<Option target="ImageProcessing"/>
+			<Option target="_run"/>
+			<Option target="_lib"/>
 		</Unit>
-		<Unit filename="/home/dansecan/CLionProjects/ImageProcessingAPIs/MyImage.h">
+		<Unit filename="/home/dansecan/CLionProjects/ImageProcessingAPIs/src/Filters.h">
 			<Option target="ImageProcessing"/>
+			<Option target="_run"/>
+			<Option target="_lib"/>
 		</Unit>
-		<Unit filename="/home/dansecan/CLionProjects/ImageProcessingAPIs/Page.cpp">
+		<Unit filename="/home/dansecan/CLionProjects/ImageProcessingAPIs/src/MyImage.cpp">
 			<Option target="ImageProcessing"/>
+			<Option target="_run"/>
+			<Option target="_lib"/>
 		</Unit>
-		<Unit filename="/home/dansecan/CLionProjects/ImageProcessingAPIs/Page.h">
+		<Unit filename="/home/dansecan/CLionProjects/ImageProcessingAPIs/src/MyImage.h">
 			<Option target="ImageProcessing"/>
+			<Option target="_run"/>
+			<Option target="_lib"/>
 		</Unit>
-		<Unit filename="/home/dansecan/CLionProjects/ImageProcessingAPIs/PageManager.cpp">
+		<Unit filename="/home/dansecan/CLionProjects/ImageProcessingAPIs/src/Page.cpp">
 			<Option target="ImageProcessing"/>
+			<Option target="_run"/>
+			<Option target="_lib"/>
 		</Unit>
-		<Unit filename="/home/dansecan/CLionProjects/ImageProcessingAPIs/PageManager.h">
+		<Unit filename="/home/dansecan/CLionProjects/ImageProcessingAPIs/src/Page.h">
 			<Option target="ImageProcessing"/>
+			<Option target="_run"/>
+			<Option target="_lib"/>
 		</Unit>
-		<Unit filename="/home/dansecan/CLionProjects/ImageProcessingAPIs/client.cpp">
+		<Unit filename="/home/dansecan/CLionProjects/ImageProcessingAPIs/src/PageManager.cpp">
 			<Option target="ImageProcessing"/>
+			<Option target="_run"/>
+			<Option target="_lib"/>
 		</Unit>
-		<Unit filename="/home/dansecan/CLionProjects/ImageProcessingAPIs/server.cpp">
+		<Unit filename="/home/dansecan/CLionProjects/ImageProcessingAPIs/src/PageManager.h">
 			<Option target="ImageProcessing"/>
+			<Option target="_run"/>
+			<Option target="_lib"/>
+		</Unit>
+		<Unit filename="/home/dansecan/CLionProjects/ImageProcessingAPIs/src/client.cpp">
+			<Option target="ImageProcessing"/>
+			<Option target="_run"/>
+			<Option target="_lib"/>
+		</Unit>
+		<Unit filename="/home/dansecan/CLionProjects/ImageProcessingAPIs/src/server.cpp">
+			<Option target="ImageProcessing"/>
+			<Option target="_run"/>
+			<Option target="_lib"/>
 		</Unit>
 		<Unit filename="/home/dansecan/CLionProjects/ImageProcessingAPIs/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
-		</Unit>
-		<Unit filename="/home/dansecan/CLionProjects/ImageProcessingAPIs/Google_tests/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\Google_tests\"/>
-		</Unit>
-		<Unit filename="/home/dansecan/CLionProjects/ImageProcessingAPIs/Google_tests/lib/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\Google_tests\lib\"/>
-		</Unit>
-		<Unit filename="/home/dansecan/CLionProjects/ImageProcessingAPIs/Google_tests/lib/googlemock/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\Google_tests\lib\googlemock\"/>
-		</Unit>
-		<Unit filename="/home/dansecan/CLionProjects/ImageProcessingAPIs/Google_tests/lib/googlemock/cmake/gmock.pc.in">
-			<Option virtualFolder="CMake Files\Google_tests\lib\googlemock\cmake\"/>
-		</Unit>
-		<Unit filename="/home/dansecan/CLionProjects/ImageProcessingAPIs/Google_tests/lib/googlemock/cmake/gmock_main.pc.in">
-			<Option virtualFolder="CMake Files\Google_tests\lib\googlemock\cmake\"/>
-		</Unit>
-		<Unit filename="/home/dansecan/CLionProjects/ImageProcessingAPIs/Google_tests/lib/googletest/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\Google_tests\lib\googletest\"/>
-		</Unit>
-		<Unit filename="/home/dansecan/CLionProjects/ImageProcessingAPIs/Google_tests/lib/googletest/cmake/Config.cmake.in">
-			<Option virtualFolder="CMake Files\Google_tests\lib\googletest\cmake\"/>
-		</Unit>
-		<Unit filename="/home/dansecan/CLionProjects/ImageProcessingAPIs/Google_tests/lib/googletest/cmake/gtest.pc.in">
-			<Option virtualFolder="CMake Files\Google_tests\lib\googletest\cmake\"/>
-		</Unit>
-		<Unit filename="/home/dansecan/CLionProjects/ImageProcessingAPIs/Google_tests/lib/googletest/cmake/gtest_main.pc.in">
-			<Option virtualFolder="CMake Files\Google_tests\lib\googletest\cmake\"/>
-		</Unit>
-		<Unit filename="/home/dansecan/CLionProjects/ImageProcessingAPIs/Google_tests/lib/googletest/cmake/internal_utils.cmake">
-			<Option virtualFolder="CMake Files\Google_tests\lib\googletest\cmake\"/>
-		</Unit>
-		<Unit filename="/home/dansecan/CLionProjects/ImageProcessingAPIs/Google_tests/Google_Tests_run/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\Google_tests\Google_Tests_run\"/>
 		</Unit>
 		<Unit filename="/home/dansecan/CLionProjects/ImageProcessingAPIs/../../../../usr/lib/x86_64-linux-gnu/cmake/opencv4/OpenCVConfig-version.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\opencv4\"/>
@@ -474,6 +439,27 @@
 		</Unit>
 		<Unit filename="/home/dansecan/CLionProjects/ImageProcessingAPIs/../../../../usr/lib/x86_64-linux-gnu/cmake/opencv4/OpenCVModules.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/dansecan/CLionProjects/ImageProcessingAPIs/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/home/dansecan/CLionProjects/ImageProcessingAPIs/Google_Tests_run/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Google_Tests_run\"/>
+		</Unit>
+		<Unit filename="/home/dansecan/CLionProjects/ImageProcessingAPIs/lib/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\googletest\"/>
+		</Unit>
+		<Unit filename="/home/dansecan/CLionProjects/ImageProcessingAPIs/lib/googletest/cmake/Config.cmake.in">
+			<Option virtualFolder="CMake Files\lib\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dansecan/CLionProjects/ImageProcessingAPIs/lib/googletest/cmake/gtest.pc.in">
+			<Option virtualFolder="CMake Files\lib\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dansecan/CLionProjects/ImageProcessingAPIs/lib/googletest/cmake/gtest_main.pc.in">
+			<Option virtualFolder="CMake Files\lib\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dansecan/CLionProjects/ImageProcessingAPIs/lib/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\lib\googletest\cmake\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

@@ -69,108 +69,108 @@ include CMakeFiles/ImageProcessing.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/ImageProcessing.dir/flags.make
 
-CMakeFiles/ImageProcessing.dir/client.cpp.o: CMakeFiles/ImageProcessing.dir/flags.make
-CMakeFiles/ImageProcessing.dir/client.cpp.o: ../client.cpp
-CMakeFiles/ImageProcessing.dir/client.cpp.o: CMakeFiles/ImageProcessing.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ImageProcessing.dir/client.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ImageProcessing.dir/client.cpp.o -MF CMakeFiles/ImageProcessing.dir/client.cpp.o.d -o CMakeFiles/ImageProcessing.dir/client.cpp.o -c /home/dansecan/CLionProjects/ImageProcessingAPIs/client.cpp
+CMakeFiles/ImageProcessing.dir/src/client.cpp.o: CMakeFiles/ImageProcessing.dir/flags.make
+CMakeFiles/ImageProcessing.dir/src/client.cpp.o: ../src/client.cpp
+CMakeFiles/ImageProcessing.dir/src/client.cpp.o: CMakeFiles/ImageProcessing.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ImageProcessing.dir/src/client.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ImageProcessing.dir/src/client.cpp.o -MF CMakeFiles/ImageProcessing.dir/src/client.cpp.o.d -o CMakeFiles/ImageProcessing.dir/src/client.cpp.o -c /home/dansecan/CLionProjects/ImageProcessingAPIs/src/client.cpp
 
-CMakeFiles/ImageProcessing.dir/client.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ImageProcessing.dir/client.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dansecan/CLionProjects/ImageProcessingAPIs/client.cpp > CMakeFiles/ImageProcessing.dir/client.cpp.i
+CMakeFiles/ImageProcessing.dir/src/client.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ImageProcessing.dir/src/client.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dansecan/CLionProjects/ImageProcessingAPIs/src/client.cpp > CMakeFiles/ImageProcessing.dir/src/client.cpp.i
 
-CMakeFiles/ImageProcessing.dir/client.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ImageProcessing.dir/client.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dansecan/CLionProjects/ImageProcessingAPIs/client.cpp -o CMakeFiles/ImageProcessing.dir/client.cpp.s
+CMakeFiles/ImageProcessing.dir/src/client.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ImageProcessing.dir/src/client.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dansecan/CLionProjects/ImageProcessingAPIs/src/client.cpp -o CMakeFiles/ImageProcessing.dir/src/client.cpp.s
 
-CMakeFiles/ImageProcessing.dir/server.cpp.o: CMakeFiles/ImageProcessing.dir/flags.make
-CMakeFiles/ImageProcessing.dir/server.cpp.o: ../server.cpp
-CMakeFiles/ImageProcessing.dir/server.cpp.o: CMakeFiles/ImageProcessing.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ImageProcessing.dir/server.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ImageProcessing.dir/server.cpp.o -MF CMakeFiles/ImageProcessing.dir/server.cpp.o.d -o CMakeFiles/ImageProcessing.dir/server.cpp.o -c /home/dansecan/CLionProjects/ImageProcessingAPIs/server.cpp
+CMakeFiles/ImageProcessing.dir/src/server.cpp.o: CMakeFiles/ImageProcessing.dir/flags.make
+CMakeFiles/ImageProcessing.dir/src/server.cpp.o: ../src/server.cpp
+CMakeFiles/ImageProcessing.dir/src/server.cpp.o: CMakeFiles/ImageProcessing.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ImageProcessing.dir/src/server.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ImageProcessing.dir/src/server.cpp.o -MF CMakeFiles/ImageProcessing.dir/src/server.cpp.o.d -o CMakeFiles/ImageProcessing.dir/src/server.cpp.o -c /home/dansecan/CLionProjects/ImageProcessingAPIs/src/server.cpp
 
-CMakeFiles/ImageProcessing.dir/server.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ImageProcessing.dir/server.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dansecan/CLionProjects/ImageProcessingAPIs/server.cpp > CMakeFiles/ImageProcessing.dir/server.cpp.i
+CMakeFiles/ImageProcessing.dir/src/server.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ImageProcessing.dir/src/server.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dansecan/CLionProjects/ImageProcessingAPIs/src/server.cpp > CMakeFiles/ImageProcessing.dir/src/server.cpp.i
 
-CMakeFiles/ImageProcessing.dir/server.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ImageProcessing.dir/server.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dansecan/CLionProjects/ImageProcessingAPIs/server.cpp -o CMakeFiles/ImageProcessing.dir/server.cpp.s
+CMakeFiles/ImageProcessing.dir/src/server.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ImageProcessing.dir/src/server.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dansecan/CLionProjects/ImageProcessingAPIs/src/server.cpp -o CMakeFiles/ImageProcessing.dir/src/server.cpp.s
 
-CMakeFiles/ImageProcessing.dir/MyImage.cpp.o: CMakeFiles/ImageProcessing.dir/flags.make
-CMakeFiles/ImageProcessing.dir/MyImage.cpp.o: ../MyImage.cpp
-CMakeFiles/ImageProcessing.dir/MyImage.cpp.o: CMakeFiles/ImageProcessing.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ImageProcessing.dir/MyImage.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ImageProcessing.dir/MyImage.cpp.o -MF CMakeFiles/ImageProcessing.dir/MyImage.cpp.o.d -o CMakeFiles/ImageProcessing.dir/MyImage.cpp.o -c /home/dansecan/CLionProjects/ImageProcessingAPIs/MyImage.cpp
+CMakeFiles/ImageProcessing.dir/src/MyImage.cpp.o: CMakeFiles/ImageProcessing.dir/flags.make
+CMakeFiles/ImageProcessing.dir/src/MyImage.cpp.o: ../src/MyImage.cpp
+CMakeFiles/ImageProcessing.dir/src/MyImage.cpp.o: CMakeFiles/ImageProcessing.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ImageProcessing.dir/src/MyImage.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ImageProcessing.dir/src/MyImage.cpp.o -MF CMakeFiles/ImageProcessing.dir/src/MyImage.cpp.o.d -o CMakeFiles/ImageProcessing.dir/src/MyImage.cpp.o -c /home/dansecan/CLionProjects/ImageProcessingAPIs/src/MyImage.cpp
 
-CMakeFiles/ImageProcessing.dir/MyImage.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ImageProcessing.dir/MyImage.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dansecan/CLionProjects/ImageProcessingAPIs/MyImage.cpp > CMakeFiles/ImageProcessing.dir/MyImage.cpp.i
+CMakeFiles/ImageProcessing.dir/src/MyImage.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ImageProcessing.dir/src/MyImage.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dansecan/CLionProjects/ImageProcessingAPIs/src/MyImage.cpp > CMakeFiles/ImageProcessing.dir/src/MyImage.cpp.i
 
-CMakeFiles/ImageProcessing.dir/MyImage.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ImageProcessing.dir/MyImage.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dansecan/CLionProjects/ImageProcessingAPIs/MyImage.cpp -o CMakeFiles/ImageProcessing.dir/MyImage.cpp.s
+CMakeFiles/ImageProcessing.dir/src/MyImage.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ImageProcessing.dir/src/MyImage.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dansecan/CLionProjects/ImageProcessingAPIs/src/MyImage.cpp -o CMakeFiles/ImageProcessing.dir/src/MyImage.cpp.s
 
-CMakeFiles/ImageProcessing.dir/Page.cpp.o: CMakeFiles/ImageProcessing.dir/flags.make
-CMakeFiles/ImageProcessing.dir/Page.cpp.o: ../Page.cpp
-CMakeFiles/ImageProcessing.dir/Page.cpp.o: CMakeFiles/ImageProcessing.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ImageProcessing.dir/Page.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ImageProcessing.dir/Page.cpp.o -MF CMakeFiles/ImageProcessing.dir/Page.cpp.o.d -o CMakeFiles/ImageProcessing.dir/Page.cpp.o -c /home/dansecan/CLionProjects/ImageProcessingAPIs/Page.cpp
+CMakeFiles/ImageProcessing.dir/src/Page.cpp.o: CMakeFiles/ImageProcessing.dir/flags.make
+CMakeFiles/ImageProcessing.dir/src/Page.cpp.o: ../src/Page.cpp
+CMakeFiles/ImageProcessing.dir/src/Page.cpp.o: CMakeFiles/ImageProcessing.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ImageProcessing.dir/src/Page.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ImageProcessing.dir/src/Page.cpp.o -MF CMakeFiles/ImageProcessing.dir/src/Page.cpp.o.d -o CMakeFiles/ImageProcessing.dir/src/Page.cpp.o -c /home/dansecan/CLionProjects/ImageProcessingAPIs/src/Page.cpp
 
-CMakeFiles/ImageProcessing.dir/Page.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ImageProcessing.dir/Page.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dansecan/CLionProjects/ImageProcessingAPIs/Page.cpp > CMakeFiles/ImageProcessing.dir/Page.cpp.i
+CMakeFiles/ImageProcessing.dir/src/Page.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ImageProcessing.dir/src/Page.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dansecan/CLionProjects/ImageProcessingAPIs/src/Page.cpp > CMakeFiles/ImageProcessing.dir/src/Page.cpp.i
 
-CMakeFiles/ImageProcessing.dir/Page.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ImageProcessing.dir/Page.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dansecan/CLionProjects/ImageProcessingAPIs/Page.cpp -o CMakeFiles/ImageProcessing.dir/Page.cpp.s
+CMakeFiles/ImageProcessing.dir/src/Page.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ImageProcessing.dir/src/Page.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dansecan/CLionProjects/ImageProcessingAPIs/src/Page.cpp -o CMakeFiles/ImageProcessing.dir/src/Page.cpp.s
 
-CMakeFiles/ImageProcessing.dir/PageManager.cpp.o: CMakeFiles/ImageProcessing.dir/flags.make
-CMakeFiles/ImageProcessing.dir/PageManager.cpp.o: ../PageManager.cpp
-CMakeFiles/ImageProcessing.dir/PageManager.cpp.o: CMakeFiles/ImageProcessing.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ImageProcessing.dir/PageManager.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ImageProcessing.dir/PageManager.cpp.o -MF CMakeFiles/ImageProcessing.dir/PageManager.cpp.o.d -o CMakeFiles/ImageProcessing.dir/PageManager.cpp.o -c /home/dansecan/CLionProjects/ImageProcessingAPIs/PageManager.cpp
+CMakeFiles/ImageProcessing.dir/src/PageManager.cpp.o: CMakeFiles/ImageProcessing.dir/flags.make
+CMakeFiles/ImageProcessing.dir/src/PageManager.cpp.o: ../src/PageManager.cpp
+CMakeFiles/ImageProcessing.dir/src/PageManager.cpp.o: CMakeFiles/ImageProcessing.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ImageProcessing.dir/src/PageManager.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ImageProcessing.dir/src/PageManager.cpp.o -MF CMakeFiles/ImageProcessing.dir/src/PageManager.cpp.o.d -o CMakeFiles/ImageProcessing.dir/src/PageManager.cpp.o -c /home/dansecan/CLionProjects/ImageProcessingAPIs/src/PageManager.cpp
 
-CMakeFiles/ImageProcessing.dir/PageManager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ImageProcessing.dir/PageManager.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dansecan/CLionProjects/ImageProcessingAPIs/PageManager.cpp > CMakeFiles/ImageProcessing.dir/PageManager.cpp.i
+CMakeFiles/ImageProcessing.dir/src/PageManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ImageProcessing.dir/src/PageManager.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dansecan/CLionProjects/ImageProcessingAPIs/src/PageManager.cpp > CMakeFiles/ImageProcessing.dir/src/PageManager.cpp.i
 
-CMakeFiles/ImageProcessing.dir/PageManager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ImageProcessing.dir/PageManager.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dansecan/CLionProjects/ImageProcessingAPIs/PageManager.cpp -o CMakeFiles/ImageProcessing.dir/PageManager.cpp.s
+CMakeFiles/ImageProcessing.dir/src/PageManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ImageProcessing.dir/src/PageManager.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dansecan/CLionProjects/ImageProcessingAPIs/src/PageManager.cpp -o CMakeFiles/ImageProcessing.dir/src/PageManager.cpp.s
 
-CMakeFiles/ImageProcessing.dir/Filters.cpp.o: CMakeFiles/ImageProcessing.dir/flags.make
-CMakeFiles/ImageProcessing.dir/Filters.cpp.o: ../Filters.cpp
-CMakeFiles/ImageProcessing.dir/Filters.cpp.o: CMakeFiles/ImageProcessing.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ImageProcessing.dir/Filters.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ImageProcessing.dir/Filters.cpp.o -MF CMakeFiles/ImageProcessing.dir/Filters.cpp.o.d -o CMakeFiles/ImageProcessing.dir/Filters.cpp.o -c /home/dansecan/CLionProjects/ImageProcessingAPIs/Filters.cpp
+CMakeFiles/ImageProcessing.dir/src/Filters.cpp.o: CMakeFiles/ImageProcessing.dir/flags.make
+CMakeFiles/ImageProcessing.dir/src/Filters.cpp.o: ../src/Filters.cpp
+CMakeFiles/ImageProcessing.dir/src/Filters.cpp.o: CMakeFiles/ImageProcessing.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dansecan/CLionProjects/ImageProcessingAPIs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ImageProcessing.dir/src/Filters.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ImageProcessing.dir/src/Filters.cpp.o -MF CMakeFiles/ImageProcessing.dir/src/Filters.cpp.o.d -o CMakeFiles/ImageProcessing.dir/src/Filters.cpp.o -c /home/dansecan/CLionProjects/ImageProcessingAPIs/src/Filters.cpp
 
-CMakeFiles/ImageProcessing.dir/Filters.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ImageProcessing.dir/Filters.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dansecan/CLionProjects/ImageProcessingAPIs/Filters.cpp > CMakeFiles/ImageProcessing.dir/Filters.cpp.i
+CMakeFiles/ImageProcessing.dir/src/Filters.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ImageProcessing.dir/src/Filters.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dansecan/CLionProjects/ImageProcessingAPIs/src/Filters.cpp > CMakeFiles/ImageProcessing.dir/src/Filters.cpp.i
 
-CMakeFiles/ImageProcessing.dir/Filters.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ImageProcessing.dir/Filters.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dansecan/CLionProjects/ImageProcessingAPIs/Filters.cpp -o CMakeFiles/ImageProcessing.dir/Filters.cpp.s
+CMakeFiles/ImageProcessing.dir/src/Filters.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ImageProcessing.dir/src/Filters.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dansecan/CLionProjects/ImageProcessingAPIs/src/Filters.cpp -o CMakeFiles/ImageProcessing.dir/src/Filters.cpp.s
 
 # Object files for target ImageProcessing
 ImageProcessing_OBJECTS = \
-"CMakeFiles/ImageProcessing.dir/client.cpp.o" \
-"CMakeFiles/ImageProcessing.dir/server.cpp.o" \
-"CMakeFiles/ImageProcessing.dir/MyImage.cpp.o" \
-"CMakeFiles/ImageProcessing.dir/Page.cpp.o" \
-"CMakeFiles/ImageProcessing.dir/PageManager.cpp.o" \
-"CMakeFiles/ImageProcessing.dir/Filters.cpp.o"
+"CMakeFiles/ImageProcessing.dir/src/client.cpp.o" \
+"CMakeFiles/ImageProcessing.dir/src/server.cpp.o" \
+"CMakeFiles/ImageProcessing.dir/src/MyImage.cpp.o" \
+"CMakeFiles/ImageProcessing.dir/src/Page.cpp.o" \
+"CMakeFiles/ImageProcessing.dir/src/PageManager.cpp.o" \
+"CMakeFiles/ImageProcessing.dir/src/Filters.cpp.o"
 
 # External object files for target ImageProcessing
 ImageProcessing_EXTERNAL_OBJECTS =
 
-ImageProcessing: CMakeFiles/ImageProcessing.dir/client.cpp.o
-ImageProcessing: CMakeFiles/ImageProcessing.dir/server.cpp.o
-ImageProcessing: CMakeFiles/ImageProcessing.dir/MyImage.cpp.o
-ImageProcessing: CMakeFiles/ImageProcessing.dir/Page.cpp.o
-ImageProcessing: CMakeFiles/ImageProcessing.dir/PageManager.cpp.o
-ImageProcessing: CMakeFiles/ImageProcessing.dir/Filters.cpp.o
+ImageProcessing: CMakeFiles/ImageProcessing.dir/src/client.cpp.o
+ImageProcessing: CMakeFiles/ImageProcessing.dir/src/server.cpp.o
+ImageProcessing: CMakeFiles/ImageProcessing.dir/src/MyImage.cpp.o
+ImageProcessing: CMakeFiles/ImageProcessing.dir/src/Page.cpp.o
+ImageProcessing: CMakeFiles/ImageProcessing.dir/src/PageManager.cpp.o
+ImageProcessing: CMakeFiles/ImageProcessing.dir/src/Filters.cpp.o
 ImageProcessing: CMakeFiles/ImageProcessing.dir/build.make
 ImageProcessing: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.4.5.4d
 ImageProcessing: /usr/lib/x86_64-linux-gnu/libopencv_alphamat.so.4.5.4d

@@ -14,10 +14,6 @@ using namespace cv;
 //Se compila con g++ -o client client.cpp Filters.cpp MyImage.cpp `pkg-config --cflags --libs opencv4`
 int main() {
     MyImage img= MyImage("Images/Haze6.jpg");
-//    int columns=img.getColumns();
-//    int rows=img.getRows();
-//    int channels=img.getChannels();
-//    img.showBefImage();
     cv::Mat matrix = img.getMatrix();
     Filters filter = Filters(matrix,"image");
     filter.gammaCorrection(2.2,0);
